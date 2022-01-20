@@ -9,15 +9,6 @@ export default css`
         min-height: 250px;
     }
 
-    .card:before {
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 5em; 
-        margin-top: 1.5em
-    }
-
     header {
         margin-bottom: 50px;
         padding: 10px;

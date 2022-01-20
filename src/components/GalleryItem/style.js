@@ -11,10 +11,14 @@ export default css`
         border-radius: 1.2rem;
         padding: 20px;
         flex: 1 1;
+        transition: all 0.5s;
     }
 
     .gallery-item:hover {
         background-color: ${darkTheme.colors.menuhover};
+        transform: scale(1.05);
+        transition: all 0.5s;
+        cursor: pointer;
     }
 
     .gallery-item-title {

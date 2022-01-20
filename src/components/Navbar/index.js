@@ -3,11 +3,11 @@ import { debounce } from '../../utils'
 
 import navbarStyle from './style'
 import NavItem from '../NavItem'
-import Hamburguer from '../Hamburger'
+import Hamburger from '../Hamburger'
 
 export default function Navbar({ items }) {
 
-    const [responsiveMode, setResponsiveMode] = useState(false);
+    const [responsiveMode, setResponsiveMode] = useState(true);
 
     useEffect(() => {
         const debouncedHandleResize = debounce(() => {
@@ -22,18 +22,16 @@ export default function Navbar({ items }) {
             window.removeEventListener('resize', debouncedHandleResize)
     }}, [])
 
-    const toggleHamburger = () => {
-        setResponsiveMode(!responsiveMode);
-    }
-
     const navItems = items.map((item, index) => <div key={`navbar-${index}`}><NavItem item={item}/></div> )
 
     return ( 
         <nav>
-            <Hamburguer onClick={toggleHamburger} />
             <ul className={responsiveMode ? '' : 'visible'}>
                 {navItems}
             </ul>
+
+            <Hamburger navItems={navItems}/>
+
             <style jsx>
                     { navbarStyle }
             </style>

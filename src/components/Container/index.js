@@ -1,8 +1,8 @@
 import containerStyle from './style'
 
-export default function Header({ children }) {
+export default function Header({ id, children }) {
     return (
-        <div>
+        <div id={id}>
             {children}
             <style jsx>
                 { containerStyle }

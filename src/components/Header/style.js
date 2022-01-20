@@ -10,7 +10,7 @@ export default css`
         display: flex;
         align-items: center;
         justify-content: space-between;
-        z-index: 1;
+        z-index: 10;
         padding: 25px;
         border-bottom: 2px solid ${darkTheme.colors.primary};
     }

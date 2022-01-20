@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Button, Header, Card, Container, Footer, Gallery } from '../src/components/'
+import { Button, Card, Header, Image, Container, Footer, Gallery } from '../src/components/'
 
 import cardsData from '../src/data/cards.json'
 import projectsData from '../src/data/projects.json'
@@ -16,35 +16,35 @@ export default function Home() {
       <Head>
         <title> Marcus Natrielli </title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       </Head>
 
       <Header title="Marcus Natrielli" items={navbarItems}/>
 
       <main>
-        <Container>
+        <Container id={aboutMe.id}>
+          <Image alt="Foto de pessoa sorrindo" src="/images/photo.webp"/>
           <Card {...aboutMe} />
         </Container>
 
-        <Container>
+        <Container id={projects.id}>
           <Card {...projects} >
             <Gallery itemKey="projects" itemSize="9em" items={projectsData} />
           </Card>
         </Container>
         
-        <Container>
+        <Container id={skills.id}>
           <Card {...skills} >
             <Gallery itemKey="skills" itemSize="15%" items={skillsData} />
           </Card>
         </Container>
 
-        <Container>
+        <Container id={resume.id}>
           <Card {...resume}>
             <Button download={true} downloadFile="/Currículo_-_Marcus_Natrielli.pdf">Baixar currículo (PDF)</Button>
           </Card>
         </Container>
 
-        <Container>
+        <Container id={contact.id}>
           <Card {...contact} />
         </Container>
       </main>
@@ -52,7 +52,6 @@ export default function Home() {
       <Footer>
         Feito com  <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a> por <a href="https://github.com/InfiniteMarcus" target="_blank" rel="noopener noreferrer">@infinitemarcus</a>
       </Footer>
-
       <style jsx global>
         { globalStyle }
       </style>

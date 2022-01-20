@@ -6,6 +6,7 @@ import Hamburger from './Hamburger';
 import Header from './Header';
 import Gallery from './Gallery';
 import GalleryItem from './GalleryItem';
+import Image from './Image';
 import Navbar from './Navbar';
 
 export {
@@ -17,5 +18,6 @@ export {
     Header, 
     GalleryItem, 
     Gallery,
+    Image,
     Navbar
 }

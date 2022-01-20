@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+#TODO :
+- fix hamburger list height in Ipads
+- transition to hamburger button

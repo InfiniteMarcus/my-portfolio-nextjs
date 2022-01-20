@@ -6,7 +6,7 @@ export default css`
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .visible {
@@ -26,14 +26,11 @@ export default css`
         max-height: 0;
         opacity: 0;
         overflow: hidden;
-        filter: alpha(opacity=0);
     }
-    
+
     @media (max-width: 950px) {
         ul {
-            display: block;
-            float: none;
-            text-align: left;
+            display: none;
         }
     }
 `;

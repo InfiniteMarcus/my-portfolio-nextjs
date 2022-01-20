@@ -2,6 +2,12 @@ import css from 'styled-jsx/css'
 import { darkTheme } from './theme';
 
 export default css.global`
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
     html {
         box-sizing: border-box;
         font-size: 1em;
@@ -38,11 +44,6 @@ export default css.global`
         list-style: none;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
     main {
         margin-top: 100px;
     }
@@ -63,10 +64,4 @@ export default css.global`
     ::-webkit-scrollbar-thumb\:hover {
         background: ${darkTheme.colors.primary}; 
     }
-`
-
-/**
- * :hover::-webkit-scrollbar-thumb {
-    background: #b30000; 
-}
-*/
+`;

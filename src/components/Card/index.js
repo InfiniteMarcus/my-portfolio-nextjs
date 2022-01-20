@@ -2,7 +2,7 @@ import cardStyle from './style'
 
 export default function Card ({ id, title, description, children }) {
     return (
-        <div id={id} className="card anchor">
+        <div className="card">
             <header>
                 <h1> { title } </h1>
             </header>
