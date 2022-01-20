@@ -10,24 +10,22 @@ export default function Hamburger({navItems}) {
     }
 
     return ( 
-        <>
-            <div className="hamburger">
-                <div style={{marginRight : toggled ? '-65px' : '30px'}} className="hamburger-btn">
-                    <a className="icon" onClick={toggleHamburger}>
-                        <img width="35" height="35" alt="" src="/images/hamburger.svg"></img>
-                    </a>
-                </div>
-
-                <div style={{display : toggled ? 'block' : 'none'}} className="hamburger-list">
-                    {navItems}
-                </div>
-                <div style={{display : toggled ? 'block' : 'none'}} className="unfocus" onClick={toggleHamburger}></div>
-
-                <style jsx>
-                    { hamburgerStyle }
-                </style>
+        <div className="hamburger">
+            <div onClick={toggleHamburger} className={`hamburger-btn ${toggled ? 'open' : ''}`} >
+                <div className="hamburger-icon"></div>
             </div>
-        </>
+
+            <div style={{display : toggled ? 'flex' : 'none'}} className="hamburger-list">
+                {navItems}
+            </div>
+            
+            <div style={{display : toggled ? 'block' : 'none'}} className="unfocus" onClick={toggleHamburger}></div>
+
+
+            <style jsx>
+                { hamburgerStyle }
+            </style>
+        </div>
     )
 }
 

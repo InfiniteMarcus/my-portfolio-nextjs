@@ -16,6 +16,8 @@ export default function Home() {
       <Head>
         <title> Marcus Natrielli </title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="description" content="Portfólio de Marcus Natrielli"></meta>
       </Head>
 
       <Header title="Marcus Natrielli" items={navbarItems}/>

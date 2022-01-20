@@ -44,10 +44,6 @@ export default css.global`
         list-style: none;
     }
 
-    main {
-        margin-top: 100px;
-    }
-
     ::-webkit-scrollbar {
         width: 12px;
     }

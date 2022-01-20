@@ -5,41 +5,85 @@ export default css`
 
     .hamburger {
         display: none;
-        max-height: 35px;
         position: absolute;
     }
 
-    .hamburger-btn {
+    .hamburger-btn, .hamburger-icon {
         z-index: 12;
     }
-
-    .visible {
-        display: block;
-    }
-
-    .icon {
+    
+    .hamburger-btn {
         cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .icon:hover, .icon:active {
-        opacity: 0.8;
+    .hamburger-btn:hover, .hamburger-btn:active {
+        opacity: 0.9;
+    }
+
+    .hamburger-icon {
+        width: 40px;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+    }
+
+    .hamburger-icon::before,
+    .hamburger-icon::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+    }
+    .hamburger-icon::before {
+        transform: translateY(-16px);
+    }
+    .hamburger-icon::after {
+        transform: translateY(16px);
+    }
+
+    /* ANIMATION */
+    .hamburger-btn.open .hamburger-icon {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+    .hamburger-btn.open .hamburger-icon::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .hamburger-btn.open .hamburger-icon::after {
+        transform: rotate(-45deg) translate(35px, 35px);
     }
 
     .hamburger-list {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
         z-index: 11;
         background-color: ${darkTheme.colors.menuhover};
         border-left: 2px solid ${darkTheme.colors.primary};
         border-bottom: 2px solid ${darkTheme.colors.primary};
         animation: reveal 0.5s forwards;
-                
-        width: 325px;
-        height: 100vh;
-        margin-top: 360px;
-        padding: 650px 25px 650px;
-
+          
+        position: absolute;
+        top: -25px;
+        right: 0;
+        width: 250px;
+        height: 110vh;
+        margin-right: -50px;
+        padding-top: 120px;
+        padding-left: 20px;
     }
 
     .unfocus {

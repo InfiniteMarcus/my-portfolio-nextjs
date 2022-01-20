@@ -5,8 +5,8 @@ export default css`
     nav {
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: row;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
     }
 
     .visible {
