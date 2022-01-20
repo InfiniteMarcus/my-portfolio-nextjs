@@ -1,0 +1,22 @@
+[
+    {
+        "href" : "#aboutMe",
+        "text" : "Sobre mim"
+    },
+    {
+        "href" : "#projects",
+        "text" : "Projetos"
+    },
+    {
+        "href" : "#skills",
+        "text" : "Habilidades"
+    },
+    {
+        "href" : "#resume",
+        "text" : "Currículo"
+    },
+    {
+        "href" : "#contact",
+        "text" : "Contato"
+    }
+]
