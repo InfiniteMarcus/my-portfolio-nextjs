@@ -7,7 +7,12 @@
     {
         "id" : "projects",
         "title" : "Projetos",
-        "description" : ""
+        "description" : "Destaques de aplicações práticas importantes que fiz ou participei."
+    },
+    {
+        "id" : "techs",
+        "title" : "Tecnologias",
+        "description" : "Linguagens, frameworks, bibliotecas e outras tecnologias que mais utilizo no dia-a-dia atual como programador."
     },
     {
         "id" : "skills",

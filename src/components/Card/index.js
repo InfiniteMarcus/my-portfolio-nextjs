@@ -7,8 +7,12 @@ export default function Card ({ id, title, description, children }) {
                 <h1> { title } </h1>
             </header>
 
-            <div className="cardBody">
-                { description }
+            <div className="card-body">
+                {description && 
+                    <div className="card-text">
+                        { description }
+                    </div>
+                }
                 { children }
             </div>
 

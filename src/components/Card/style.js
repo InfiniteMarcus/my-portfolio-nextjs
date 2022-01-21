@@ -10,7 +10,7 @@ export default css`
     }
 
     header {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         padding: 10px;
         max-width: 250px;
         border-bottom: 2px solid ${darkTheme.colors.primary};
@@ -23,8 +23,12 @@ export default css`
         font-size: 2.5em;
     }
 
-    .cardBody {
+    .card-body {
         padding: 20px;
         font-size: 1.7em;
+    }
+
+    .card-text {
+        margin-bottom: 40px;
     }
 `

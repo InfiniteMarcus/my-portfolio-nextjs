@@ -5,10 +5,11 @@ import cardsData from '../src/data/cards.json'
 import projectsData from '../src/data/projects.json'
 import navbarItems from '../src/data/navbar.json'
 import skillsData from '../src/data/skills.json'
+import techsData from '../src/data/techs.json'
 
 import globalStyle from '../src/styles/globalStyle.js'
 
-const [aboutMe, projects, skills, resume, contact] = cardsData;
+const [aboutMe, projects, techs, skills, resume, contact] = cardsData;
 
 export default function Home() {
   return (
@@ -31,6 +32,12 @@ export default function Home() {
         <Container id={projects.id}>
           <Card {...projects} >
             <Gallery itemKey="projects" itemSize="9em" items={projectsData} />
+          </Card>
+        </Container>
+
+        <Container id={techs.id}>
+          <Card {...techs} >
+            <Gallery itemKey="skills" itemSize="15%" items={techsData} />
           </Card>
         </Container>
         

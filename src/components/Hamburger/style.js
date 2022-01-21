@@ -30,7 +30,6 @@ export default css`
         height: 3px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(255,101,47,.2);
         transition: all .5s ease-in-out;
     }
 
@@ -42,21 +41,19 @@ export default css`
         height: 3px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(255,101,47,.2);
         transition: all .5s ease-in-out;
     }
     .hamburger-icon::before {
-        transform: translateY(-16px);
+        transform: translateY(-14px);
     }
     .hamburger-icon::after {
-        transform: translateY(16px);
+        transform: translateY(14px);
     }
 
     /* ANIMATION */
     .hamburger-btn.open .hamburger-icon {
         transform: translateX(-50px);
         background: transparent;
-        box-shadow: none;
     }
     .hamburger-btn.open .hamburger-icon::before {
         transform: rotate(45deg) translate(35px, -35px);

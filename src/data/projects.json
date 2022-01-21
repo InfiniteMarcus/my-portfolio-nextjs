@@ -2,16 +2,30 @@
     {
         "title" : "Projeto Hanna",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "tech" : "NodeJS, Python, PostgreSQL"
+        "tech" : "Node.js, Discord.js, Python, PostgreSQL"
     },
     {
-        "title" : "Projeto Hanna",
+        "title" : "Compilador Java",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "tech" : "NodeJS, Python, PostgreSQL"
+        "github_url" : "https://github.com/InfiniteMarcus/Compilador-Java",
+        "tech" : "Java"
     },
     {
-        "title" : "Projeto Hanna",
+        "title" : "Lyfer Education",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "tech" : "NodeJS, Python, PostgreSQL"
+        "github_url" : "https://github.com/InfiniteMarcus/Lyfer-Education",
+        "tech" : "Godot Engine, GDScript"
+    },
+    {
+        "title" : "Portfólio com Next.js",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
+        "github_url" : "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
+        "tech" : "React.js, Next.js, HTML, CSS"
+    },
+    {
+        "title" : "Basic Algorithms",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
+        "github_url" : "https://github.com/InfiniteMarcus/Basic-Algorithms",
+        "tech" : "C, C++, JavaScript"
     }
 ]

@@ -8,6 +8,10 @@
         "text" : "Projetos"
     },
     {
+        "href" : "#techs",
+        "text" : "Tecnologias"
+    },
+    {
         "href" : "#skills",
         "text" : "Habilidades"
     },
