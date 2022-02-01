@@ -28,7 +28,7 @@ export default css`
         overflow: hidden;
     }
 
-    @media (max-width: 950px) {
+    @media (max-width: 1050px) {
         ul {
             display: none;
         }

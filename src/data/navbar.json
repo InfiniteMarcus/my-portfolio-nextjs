@@ -16,6 +16,10 @@
         "text" : "Experiência"
     },
     {
+        "href" : "#roadmap",
+        "text" : "Roadmap"
+    },
+    {
         "href" : "#resume",
         "text" : "Currículo"
     },

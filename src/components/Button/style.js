@@ -11,7 +11,7 @@ export default css`
     button {
         background-color: ${darkTheme.colors.primary};
         cursor: pointer;
-        padding: 20px 35px 20px 35px;
+        padding: 20px;
         font-size: 1em;
         font-family: 'Trebuchet MS', sans-serif;
         border-radius: 1rem;

@@ -1,6 +1,6 @@
 import cardStyle from './style'
 
-export default function Card ({ id, title, description, children }) {
+export default function Card ({breakValue, id, title, description, children}) {
     return (
         <div className="card">
             <header>
@@ -11,13 +11,15 @@ export default function Card ({ id, title, description, children }) {
                 {description && 
                     description.split('<br>').map( (line, i) => {
                         return (
-                            <p key={i} style={{marginBottom: '20px'}}> 
+                            <p key={i} style={{padding: '10px', marginBottom: '20px'}}> 
                                 {line} 
                             </p>
                         )
                     })
                 }
-                { children }
+                <div style={{wordBreak: breakValue || 'inherit'}} className="card-container">
+                    { children }
+                </div>
             </div>
 
             <style jsx>

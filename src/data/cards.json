@@ -17,6 +17,11 @@
     {
         "id" : "experience",
         "title" : "Experiência",
+        "description" : "Palestras, eventos e outros marcos importantes da minha jornada"
+    },
+    {
+        "id" : "roadmap",
+        "title" : "Roadmap",
         "description" : ""
     },
     {

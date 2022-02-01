@@ -1,17 +1,19 @@
 import css from 'styled-jsx/css'
 
 export default css`
+
+    a {
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     img {
-        max-width: 250px;
         width: 100%;
         height: auto;
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 2px;
-        opacity: 0.9;
+        opacity: 0.85;
         transition: all 0.5s;
-        padding: 10px;
     }
 
     img:hover {

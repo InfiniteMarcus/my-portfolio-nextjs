@@ -31,4 +31,19 @@ export default css`
     .card-text {
         margin-bottom: 40px;
     }
+
+    .card-container {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .card-container{
+            max-width: 70%;
+            flex-direction: column;
+        }
+    }
 `

@@ -95,7 +95,7 @@ export default css`
         top: 0;
     }
 
-    @media (max-width: 949px) {
+    @media (max-width: 1049px) {
         .hamburger {
             display: flex;
             align-items: center;

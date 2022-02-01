@@ -1,8 +1,18 @@
 [
     {
-        "description" : "Palestra:  - SeCoT 2020"
+        "description" : "Evento: HackoonWeek - HackoonSpace - 2021",
+        "url" : "https://www.youtube.com/watch?v=QirPzv4L1qQ&list=PLSYx7h5HkQPq3FyaGPbNyQf6GGhgV0akj"
     },
     {
-        "description" : "Palestra  - Campus Party"
+        "description" : "Palestra: O que fazer ao encontrar falhas de segurança? - CPBR Digital Edition 2 - 2021",
+        "url" : "https://www.youtube.com/watch?v=Dv-1nGhgNew"
+    },
+    {
+        "description" : "Evento: HackoonWeek - HackoonSpace - 2020",
+        "url" : "https://www.youtube.com/watch?v=AHOb6xl9p3M&list=PLSYx7h5HkQPoW5WIdgco9CC3nehcqJYD9"
+    },
+    {
+        "description" : "Palestra: Como se proteger na Web? - 12ª SeCoT - 2020",
+        "url" : "https://www.youtube.com/watch?v=Xnn1S3D9T7o"
     }
 ]
