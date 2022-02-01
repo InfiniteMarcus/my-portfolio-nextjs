@@ -2,10 +2,18 @@ import css from 'styled-jsx/css'
 import { darkTheme } from '../../styles/theme';
 
 export default css`
+
+    a {
+        text-decoration: none;
+    }
+
     .gallery-item {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
         position: relative;
         background-color: ${darkTheme.colors.menu};
         border-radius: 1.2rem;
@@ -30,13 +38,11 @@ export default css`
         font-size: 20px;
     }
 
-    .gallery-item-tech {
+    .gallery-item-footer {
         padding: 0 15px 0 15px;
         font-size: 1rem;
         color: gray;
-        position: absolute;
         bottom: 0;
-        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;

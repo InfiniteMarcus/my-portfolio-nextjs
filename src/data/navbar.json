@@ -8,12 +8,12 @@
         "text" : "Projetos"
     },
     {
-        "href" : "#techs",
-        "text" : "Tecnologias"
-    },
-    {
         "href" : "#skills",
         "text" : "Habilidades"
+    },
+    {
+        "href" : "#experience",
+        "text" : "Experiência"
     },
     {
         "href" : "#resume",

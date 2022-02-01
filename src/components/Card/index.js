@@ -9,9 +9,13 @@ export default function Card ({ id, title, description, children }) {
 
             <div className="card-body">
                 {description && 
-                    <div className="card-text">
-                        { description }
-                    </div>
+                    description.split('<br>').map( (line, i) => {
+                        return (
+                            <p key={i} style={{marginBottom: '20px'}}> 
+                                {line} 
+                            </p>
+                        )
+                    })
                 }
                 { children }
             </div>

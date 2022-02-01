@@ -1,29 +1,42 @@
 import galleryItemStyle from './style'
 
-export default function GalleryItem({ itemSize, title, description, tech }) {
+export default function GalleryItem({ itemSize, title, description, footer, url }) {
+    const Tag = url ? 'a' : 'div';
     return (
-        <div style={{flexBasis: itemSize}} className="gallery-item">
-            {
-                title &&
-                <div className="gallery-item-title"> 
-                    {title}
-                </div>
-            }
+        <Tag
+            style={{flexBasis: itemSize}} 
+            className="gallery-item" 
+            href={url ? `${url}` : ''} 
+            target={url ? "_blank" : ''}
+        >
+            <div>
+                {
+                    title &&
+                    <div className="gallery-item-title"> 
+                        {title}
+                    </div>
+                }
 
-            <p style={{paddingBottom: tech ? '50px' : '0'}} className="gallery-item-description"> 
-                {description} 
-            </p>
+                {
+                    description.split('<br>').map( (line, i) => {
+                        return (
+                            <p key={i} style={{paddingBottom: footer ? '30px' : '0'}} className="gallery-item-description"> 
+                                {line} 
+                            </p>
+                        )
+                    })
+                }
 
-            {
-                tech &&
-                <div className="gallery-item-tech"> 
-                    {tech} 
-                </div>
-            }
-
+                {
+                    footer &&
+                    <div className="gallery-item-footer"> 
+                        {footer} 
+                    </div>
+                }
+            </div>
             <style jsx>
-                { galleryItemStyle }
+                    { galleryItemStyle }
             </style>
-        </div>
+        </Tag>
     )
 }

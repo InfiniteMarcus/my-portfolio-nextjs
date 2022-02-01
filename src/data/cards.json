@@ -2,21 +2,21 @@
     {
         "id" : "aboutMe",
         "title" : "Sobre mim",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id augue ut velit lobortis viverra. Quisque ac pharetra ligula. Sed sed metus in urna scelerisque ultrices. Maecenas accumsan justo ac nisl lacinia consequat quis et enim. Nulla vestibulum quis turpis non convallis. Suspendisse vehicula cursus elit, vitae fermentum nulla faucibus eu. Nam luctus velit at libero scelerisque fermentum. Phasellus tempus augue eu quam viverra eleifend."
+        "description" : "Olá! Me chamo Marcus Vinícius Natrielli Garcia<br>Sou estudante de Ciência da Computação na UFSCar - campus Sorocaba, cofundador do hackerspace HackoonSpace e criador do @ProjectHanna<br>Conheça mais sobre mim e o meu trabalho aqui neste site"
     },
     {
         "id" : "projects",
         "title" : "Projetos",
-        "description" : "Destaques de aplicações práticas importantes que fiz ou participei."
-    },
-    {
-        "id" : "techs",
-        "title" : "Tecnologias",
-        "description" : "Linguagens, frameworks, bibliotecas e outras tecnologias que mais utilizo no dia-a-dia atual como programador."
+        "description" : "Destaques de aplicações práticas importantes na minha carreira"
     },
     {
         "id" : "skills",
         "title" : "Habilidades",
+        "description" : "Linguagens, tecnologias, frameworks, bibliotecas e outras habilidades que mais utilizo no dia-a-dia como programador"
+    },
+    {
+        "id" : "experience",
+        "title" : "Experiência",
         "description" : ""
     },
     {

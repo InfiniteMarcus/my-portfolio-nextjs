@@ -1,31 +1,32 @@
 [
     {
         "title" : "Projeto Hanna",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "tech" : "Node.js, Discord.js, Python, PostgreSQL"
+        "description" : "A Hanna é uma assistente virtual que nasceu como bot para Discord. Aos poucos venho expandindo para outras aplicações, como desktop e mobile. Você pode acompanhar o Twitter do projeto em @ProjectHanna",
+        "url" : "https://github.com/InfiniteMarcus/Hanna-Bot",
+        "footer" : "Node.js, Discord.js, Python, PostgreSQL"
     },
     {
         "title" : "Compilador Java",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "github_url" : "https://github.com/InfiniteMarcus/Compilador-Java",
-        "tech" : "Java"
+        "description" : "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
+        "url" : "https://github.com/InfiniteMarcus/Compilador-Java",
+        "footer" : "Java"
     },
     {
         "title" : "Lyfer Education",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "github_url" : "https://github.com/InfiniteMarcus/Lyfer-Education",
-        "tech" : "Godot Engine, GDScript"
+        "description" : "Aplicação feita durante a 2º edição do Hackathon - CCR, organizado pela Shawee. Um jogo para ajudar jovens brasileiros a reforçarem seu interesse pelo aprendizado e descobrirem novos caminhos para o futuro",
+        "url" : "https://github.com/InfiniteMarcus/Lyfer-Education",
+        "footer" : "Godot Engine, GDScript"
     },
     {
         "title" : "Portfólio com Next.js",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "github_url" : "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
-        "tech" : "React.js, Next.js, HTML, CSS"
+        "description" : "Este próprio site que você está acessando! Feito com React.js e Next.js, meu site pessoal para que mais pessoas possam conhecer eu e meu trabalho :D ",
+        "url" : "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
+        "footer" : "React.js, Next.js, HTML, CSS"
     },
     {
         "title" : "Basic Algorithms",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur justo eu nibh ultrices rhoncus ut nec ipsum.",
-        "github_url" : "https://github.com/InfiniteMarcus/Basic-Algorithms",
-        "tech" : "C, C++, JavaScript"
+        "description" : "Repositório para guardar algoritmos e scripts importantes do meu dia-a-dia como programador, separados por linguagens/tecnologias",
+        "url" : "https://github.com/InfiniteMarcus/Basic-Algorithms",
+        "footer" : "C, C++, JavaScript"
     }
 ]
