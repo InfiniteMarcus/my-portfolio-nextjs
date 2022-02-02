@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Button, Card, Header, Icon, Image, Container, Footer, Gallery } from '../src/components/'
+import { Button, Card, Checkbox, Header, Icon, Image, Container, Footer, Gallery } from '../src/components/'
 
 import cardsData from '../src/data/cards.json'
 import projectsData from '../src/data/projects.json'
@@ -50,7 +50,12 @@ export default function Home() {
 
         <Container id={roadmap.id}>
           <Card {...roadmap} >
-            
+            <div>
+              <Checkbox checked="true" text="Aprender TypeScript"/>
+              <Checkbox checked="true" text="Portfólio com React.js"/>
+              <Checkbox text="Site do Projeto Hanna"/>
+              <Checkbox text="Aprender mais sobre Docker"/>
+            </div>
           </Card>
         </Container>
 

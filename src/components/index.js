@@ -1,5 +1,6 @@
 import Button from './Button';
 import Card from './Card';
+import Checkbox from './Checkbox';
 import Container from './Container';
 import Footer from './Footer';
 import Hamburger from './Hamburger';
@@ -12,7 +13,8 @@ import Navbar from './Navbar';
 
 export {
     Button,
-    Card, 
+    Card,
+    Checkbox,
     Container,
     Footer, 
     GalleryItem, 

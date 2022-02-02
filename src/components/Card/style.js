@@ -42,7 +42,6 @@ export default css`
 
     @media (max-width: 768px) {
         .card-container{
-            max-width: 70%;
             flex-direction: column;
         }
     }
