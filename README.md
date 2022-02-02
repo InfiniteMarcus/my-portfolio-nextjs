@@ -2,7 +2,7 @@
 
 Repositório com um  site pessoal/portfólio implementado com React.js e Next.js para mim ([@infinitemarcus](https://github.com/infinitemarcus)).
 
-Veja o projeto em funcionamento [neste deploy](marcusnatrielli.vercel.app) feito na plataforma Vercel.
+Veja o projeto em funcionamento [neste deploy](httsp://marcusnatrielli.vercel.app) feito na plataforma Vercel.
 
 ## Próximos passos :
 
