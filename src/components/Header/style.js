@@ -11,8 +11,17 @@ export default css`
         align-items: center;
         justify-content: space-between;
         z-index: 10;
-        padding: 25px;
+        padding: 20px;
         border-bottom: 2px solid ${darkTheme.colors.primary};
+    }
+
+    .image {
+        margin-left: 20px;
+        opacity: 0.9;
+    }
+
+    .image:hover {
+        opacity: 1;
     }
 
     .title {

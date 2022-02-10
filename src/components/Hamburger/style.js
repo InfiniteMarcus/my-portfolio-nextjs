@@ -74,7 +74,7 @@ export default css`
         animation: reveal 0.5s forwards;
           
         position: absolute;
-        top: -25px;
+        top: -45px;
         right: 0;
         width: 250px;
         height: 110vh;

@@ -16,13 +16,16 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Marcus Natrielli</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="images/favicon.ico" />
 
         <meta name="description" content="Portfólio de Marcus Natrielli"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
 
-      <Header title="Marcus Natrielli" items={navbarItems} />
+      <Header 
+        image="logo.png" width="90px" height="75px" alt="Logo vermelha com com o nome Marcus Natrielli em branco"
+        items={navbarItems}
+      />
 
       <main>
         <Container id={aboutMe.id}>
