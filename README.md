@@ -6,7 +6,6 @@ Veja o projeto em funcionamento [neste deploy](httsp://marcusnatrielli.vercel.ap
 
 ## Próximos passos :
 
-- Adicionar ícone no head
 - Adicionar transições quando elementos aparecerem em tela
 - Botão com escolha de idioma (talvez usar Redux?)
 - Possível integração com API do Github
