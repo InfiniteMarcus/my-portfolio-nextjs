@@ -73,9 +73,9 @@ export default function Home() {
           <Card {...contact }>
             <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px'}}>
               <Icon href="https://www.facebook.com/marcus.natrielli/" src="https://img.icons8.com/color/96/000000/facebook-circled--v1.png" alt="Ícone do Facebook" />
-              <Icon href="https://twitter.com/InfiniteMarcus" src="https://img.icons8.com/color/96/000000/twitter-circled--v1.png" alt="Ícone do Twitter" />
+              <Icon href="https://twitter.com/MarcusNatrielli" src="https://img.icons8.com/color/96/000000/twitter-circled--v1.png" alt="Ícone do Twitter" />
               <Icon href="https://www.linkedin.com/in/marcus-natrielli/" src="https://img.icons8.com/color/96/000000/linkedin-circled--v1.png" alt="Ícone do LinkedIn" />
-              <Icon href="https://www.youtube.com/user/infinitemarcus" src="https://img.icons8.com/color/96/000000/youtube-squared.png" alt="Ícone do Youtube" />
+              <Icon href="https://www.youtube.com/channel/UCZNG7XNAtaVwst0BTzxiHCQ" src="https://img.icons8.com/color/96/000000/youtube-squared.png" alt="Ícone do Youtube" />
               <Icon href="https://www.instagram.com/marcusnatrielli/" src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt="Ícone do Instagram" />
               <Icon href="mailto:marcus.natrielli@outlook.com" src="https://img.icons8.com/fluency/96/000000/email-open.png" alt="Ícone de E-mail" />
             </div>
