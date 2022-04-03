@@ -24,9 +24,9 @@
         "footer" : "React.js, Next.js, HTML, CSS"
     },
     {
-        "title" : "Basic Algorithms",
-        "description" : "Repositório para guardar algoritmos e scripts importantes do meu dia-a-dia como programador, separados por linguagens/tecnologias",
-        "url" : "https://github.com/InfiniteMarcus/Basic-Algorithms",
-        "footer" : "C, C++, JavaScript"
+        "title" : "Newsletter do HackoonSpace",
+        "description" : "Site para cadastro/descadastro em newsletter de comunidade estudantil. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
+        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v1",
+        "footer" : "Node.js, TypeScript, HTML, CSS"
     }
 ]
