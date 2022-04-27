@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="images/favicon.ico" />
 
         <meta name="title" property="og:title" content="Marcus Natrielli"/>
-        <meta property="og:type" content="Portfolio"/>
+        <meta property="og:type" content="profile.marcusnatrielli"/>
         <meta name="author" content="Marcus Natrielli"/>
         <meta name="description" property="og:description" content="Site portfólio desenvolvido com React.js e Next.js pelo desenvolvedor Marcus Natrielli"/>
         <meta name="image" property="og:image" content="https://marcusnatrielli.com/images/photo.webp"/>
