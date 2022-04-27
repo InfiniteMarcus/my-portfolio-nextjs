@@ -23,12 +23,12 @@ export default function Home() {
         <meta name="description" property="og:description" content="Site portfólio de Marcus Natrielli desenvolvido com React.js e Next.js"/>
         <meta name="image" property="og:image" content="https://marcusnatrielli.com/images/photo.webp"/>
     
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="marcusnatrielli.com">
-        <meta property="twitter:url" content="https://marcusnatrielli.com/">
-        <meta name="twitter:title" content="Marcus Natrielli">
-        <meta name="twitter:description" content="Site portfólio de Marcus Natrielli desenvolvido com React.js e Next.js">
-        <meta name="twitter:image" content="https://marcusnatrielli.com/images/photo.webp">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="marcusnatrielli.com"/>
+        <meta property="twitter:url" content="https://marcusnatrielli.com/"/>
+        <meta name="twitter:title" content="Marcus Natrielli"/>
+        <meta name="twitter:description" content="Site portfólio de Marcus Natrielli desenvolvido com React.js e Next.js"/>
+        <meta name="twitter:image" content="https://marcusnatrielli.com/images/photo.webp"/>
     
         <meta name="author" content="Marcus Natrielli"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
