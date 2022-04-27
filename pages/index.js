@@ -18,7 +18,8 @@ export default function Home() {
         <title>Marcus Natrielli</title>
         <link rel="icon" href="images/favicon.ico" />
 
-        <meta name="description" content="Portfólio de Marcus Natrielli"></meta>
+        <meta name="author" content="Marcus Natrielli">
+        <meta name="description" content="Site portfólio de Marcus Natrielli"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
 
