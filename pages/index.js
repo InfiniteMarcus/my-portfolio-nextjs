@@ -10,6 +10,9 @@ import skillsData from '../src/data/skills.json'
 import globalStyle from '../src/styles/globalStyle.js'
 
 const [aboutMe, projects, skills, experience, roadmap, resume, contact] = cardsData;
+const pageTitle = "Marcus Natrielli";
+const pageDescription = "Site portfólio profissional de Marcus Vinícius Natrielli Garcia desenvolvido com React.js, Next.js, HTML e CSS";
+const pageImageURL = "https://marcusnatrielli.com/images/photo.png";
 
 export default function Home() {
   return (
@@ -19,21 +22,21 @@ export default function Home() {
 
         <meta property="og:url" content="https://marcusnatrielli.com" />
         <meta property="og:type" content="website"/>
-        <meta name="title" property="og:title" content="Marcus Natrielli"/>
-        <meta name="description" property="og:description" content="Site portfólio de Marcus Natrielli desenvolvido com React.js e Next.js"/>
-        <meta name="image" property="og:image" content="https://marcusnatrielli.com/images/photo.png"/>
+        <meta name="title" property="og:title" content={pageTitle}/>
+        <meta name="description" property="og:description" content={pageDescription}/>
+        <meta name="image" property="og:image" content={pageImageURL}/>
     
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="twitter:domain" content="marcusnatrielli.com"/>
         <meta property="twitter:url" content="https://marcusnatrielli.com/"/>
-        <meta name="twitter:title" content="Marcus Natrielli"/>
-        <meta name="twitter:description" content="Site portfólio de Marcus Natrielli desenvolvido com React.js e Next.js"/>
-        <meta name="twitter:image" content="https://marcusnatrielli.com/images/photo.png"/>
+        <meta name="twitter:title" content={pageTitle}/>
+        <meta name="twitter:description" content={pageDescription}/>
+        <meta name="twitter:image" content={pageImageURL}/>
     
         <meta name="author" content="Marcus Natrielli"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-        <title>Marcus Natrielli</title>
+        <title>{pageTitle}</title>
       </Head>
 
       <Header 
