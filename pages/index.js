@@ -18,12 +18,12 @@ export default function Home() {
         <title>Marcus Natrielli</title>
         <link rel="icon" href="images/favicon.ico" />
 
-        <meta name="title" property="og:title" content="Marcus Natrielli"><meta>
-        <meta property="og:type" content="Portfolio"><meta>
-        <meta name="author" content="Marcus Natrielli"><meta>
-        <meta name="description" property="og:description" content="Site portfólio desenvolvido com React.js e Next.js pelo desenvolvedor Marcus Natrielli"><meta>
-        <meta name="image" property="og:image" content="https://www.marcusnatrielli.com/images/photo.webp"><meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1"><meta>
+        <meta name="title" property="og:title" content="Marcus Natrielli">
+        <meta property="og:type" content="Portfolio">
+        <meta name="author" content="Marcus Natrielli">
+        <meta name="description" property="og:description" content="Site portfólio desenvolvido com React.js e Next.js pelo desenvolvedor Marcus Natrielli">
+        <meta name="image" property="og:image" content="https://www.marcusnatrielli.com/images/photo.webp">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
       </Head>
 
       <Header 
