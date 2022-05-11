@@ -94,6 +94,7 @@ export default function Home() {
               <Icon href="https://www.linkedin.com/in/marcus-natrielli/" src="https://img.icons8.com/color/96/000000/linkedin-circled--v1.png" alt="Ícone do LinkedIn" />
               <Icon href="https://www.youtube.com/channel/UCZNG7XNAtaVwst0BTzxiHCQ" src="https://img.icons8.com/color/96/000000/youtube-squared.png" alt="Ícone do Youtube" />
               <Icon href="https://www.instagram.com/marcusnatrielli/" src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt="Ícone do Instagram" />
+              <Icon href="https://github.com/InfiniteMarcus" src="https://img.icons8.com/color/96/000000/github.png" alt="Ícone do GitHub" />
               <Icon href="mailto:marcus.natrielli@outlook.com" src="https://img.icons8.com/fluency/96/000000/email-open.png" alt="Ícone de E-mail" />
             </div>
           </Card>
