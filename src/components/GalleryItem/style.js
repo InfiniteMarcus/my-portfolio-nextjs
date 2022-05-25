@@ -41,7 +41,7 @@ export default css`
     .gallery-item-footer {
         padding: 0 15px 0 15px;
         font-size: 1rem;
-        color: gray;
+        color: #9f9898;
         bottom: 0;
         margin-left: auto;
         margin-right: auto;
