@@ -6,6 +6,7 @@ import projectsData from '../src/data/projects.json'
 import navbarItems from '../src/data/navbar.json'
 import experienceData from '../src/data/experience.json'
 import skillsData from '../src/data/skills.json'
+import contactData from '../src/data/contact.json'
 
 import globalStyle from '../src/styles/globalStyle.js'
 
@@ -13,6 +14,8 @@ const [aboutMe, projects, skills, experience, roadmap, resume, contact] = cardsD
 const pageTitle = "Marcus Natrielli";
 const pageDescription = "Site portfólio profissional de Marcus Vinícius Natrielli Garcia desenvolvido com React.js, Next.js, HTML e CSS";
 const pageImageURL = "https://marcusnatrielli.com/images/photo.png";
+
+const ContactItems = contactData.map((contact, index) => <Icon href={contact.href} src={contact.src} alt={contact.alt} key={`contact-${index}`} /> );
 
 export default function Home() {
   return (
@@ -89,13 +92,7 @@ export default function Home() {
         <Container id={contact.id}>
           <Card {...contact }>
             <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px'}}>
-              <Icon href="https://www.facebook.com/marcus.natrielli/" src="https://img.icons8.com/color/96/000000/facebook-circled--v1.png" alt="Ícone do Facebook" />
-              <Icon href="https://twitter.com/MarcusNatrielli" src="https://img.icons8.com/color/96/000000/twitter-circled--v1.png" alt="Ícone do Twitter" />
-              <Icon href="https://www.linkedin.com/in/marcus-natrielli/" src="https://img.icons8.com/color/96/000000/linkedin-circled--v1.png" alt="Ícone do LinkedIn" />
-              <Icon href="https://www.youtube.com/channel/UCZNG7XNAtaVwst0BTzxiHCQ" src="https://img.icons8.com/color/96/000000/youtube-squared.png" alt="Ícone do Youtube" />
-              <Icon href="https://www.instagram.com/marcusnatrielli/" src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt="Ícone do Instagram" />
-              <Icon href="https://github.com/InfiniteMarcus" src="https://img.icons8.com/color/96/000000/github.png" alt="Ícone do GitHub" />
-              <Icon href="mailto:marcus.natrielli@outlook.com" src="https://img.icons8.com/fluency/96/000000/email-open.png" alt="Ícone de E-mail" />
+              {ContactItems}
             </div>
           </Card>
           <a style={{fontSize: '21px'}} target="_blank" href="https://icons8.com/">Ícones por Icons8</a>
