@@ -8,7 +8,7 @@ export default css`
         margin-right: auto;
     }
 
-    img {
+    .iconImg {
         width: 100%;
         height: auto;
         border-radius: 50%;
@@ -16,7 +16,7 @@ export default css`
         transition: all 0.5s;
     }
 
-    img:hover {
+    .iconImg:hover {
         opacity: 1;
         cursor: pointer;
         transform: scale(1.05);
