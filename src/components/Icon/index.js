@@ -29,7 +29,6 @@ export default function Icon ({ alt, src, href }) {
                         loader={iconLoader}
                         width="96px"
                         height="96px"
-                        loading="lazy"
                     />
                 </div>
             </a>
