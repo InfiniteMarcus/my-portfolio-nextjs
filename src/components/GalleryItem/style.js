@@ -8,6 +8,7 @@ export default css`
     }
 
     .gallery-item {
+        font-weight: bold;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -41,7 +42,6 @@ export default css`
     .gallery-item-footer {
         padding: 0 15px 0 15px;
         font-size: 1rem;
-        color: #9f9898;
         bottom: 0;
         margin-left: auto;
         margin-right: auto;
