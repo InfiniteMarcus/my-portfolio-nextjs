@@ -1,4 +1,5 @@
 
+import Image from 'next/image'
 import headerStyle from './style'
 
 import Navbar from '../Navbar'
@@ -9,7 +10,7 @@ export default function Header({ title, image, alt, width, height, items }) {
         <header>
             {image && 
                 <a className="image" href="/">
-                    <img alt={alt} src={`images/${image}`} width={width} height={height}></img>
+                    <Image alt={alt} src={`/images/${image}`} width={width} height={height} />
                 </a>
             }
 

@@ -43,7 +43,10 @@ export default function Home() {
       </Head>
 
       <Header 
-        image="logo.png" width="90px" height="75px" alt="Logo vermelha com com o nome Marcus Natrielli em branco"
+        image="logo.png" 
+        width="90px" 
+        height="75px" 
+        alt="Logo vermelha com com o nome Marcus Natrielli em branco"
         items={navbarItems}
       />
 
