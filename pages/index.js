@@ -77,10 +77,10 @@ export default function Home() {
         <Container id={roadmap.id}>
           <Card {...roadmap} >
             <div>
-              <Checkbox id="typescript" checked="true" text="Aprender TypeScript"/>
               <Checkbox id="reactjs" checked="true" text="Portfólio com React.js"/>
               <Checkbox id="hanna-website" text="Site do Projeto Hanna"/>
               <Checkbox id="docker" text="Aprender mais sobre Docker"/>
+              <Checkbox id="hanna-bot" text="Tornar o bot da Hanna público"/>
             </div>
           </Card>
         </Container>
