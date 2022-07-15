@@ -9,7 +9,7 @@
         "title" : "Bot do Qwerty",
         "description" : "Bot para Discord baseado no mascote da comunidade estudantil HackoonSpace. Possui funções de diversos tipos para facilitar a vida online dos participantes",
         "url" : "https://github.com/hackoonspace/Qwerty-bot",
-        "footer" : "Node.js, Discord.js, TypeScript"
+        "footer" : "Node.js, Discord.js"
     },
     {
         "title" : "Newsletter do HackoonSpace",
