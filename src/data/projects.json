@@ -34,5 +34,5 @@
         "description" : "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
         "url" : "https://github.com/InfiniteMarcus/Compilador-Java",
         "footer" : "Java"
-    },
+    }
 ]
