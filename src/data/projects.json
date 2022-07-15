@@ -1,15 +1,21 @@
 [
     {
         "title" : "Projeto Hanna",
-        "description" : "A Hanna é uma assistente virtual que nasceu como bot para Discord. Aos poucos venho expandindo para outras aplicações, como desktop e mobile. Você pode acompanhar o Twitter do projeto em @ProjectHanna",
-        "url" : "https://github.com/InfiniteMarcus/Hanna-Bot",
+        "description" : "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos",
+        "url" : "https://twitter.com/ProjectHanna",
         "footer" : "Node.js, Discord.js, Python, PostgreSQL"
     },
     {
-        "title" : "Compilador Java",
-        "description" : "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
-        "url" : "https://github.com/InfiniteMarcus/Compilador-Java",
-        "footer" : "Java"
+        "title" : "Bot do Qwerty",
+        "description" : "Bot para Discord baseado no mascote da comunidade estudantil HackoonSpace. Possui funções de diversos tipos para facilitar a vida online dos participantes",
+        "url" : "https://github.com/hackoonspace/Qwerty-bot",
+        "footer" : "Node.js, Discord.js, TypeScript"
+    },
+    {
+        "title" : "Newsletter do HackoonSpace",
+        "description" : "Site para cadastro/descadastro em newsletter da comunidade estudantil HackoonSpace. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
+        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v1",
+        "footer" : "Node.js, TypeScript, HTML, CSS"
     },
     {
         "title" : "Lyfer Education",
@@ -24,9 +30,9 @@
         "footer" : "React.js, Next.js, HTML, CSS"
     },
     {
-        "title" : "Newsletter do HackoonSpace",
-        "description" : "Site para cadastro/descadastro em newsletter de comunidade estudantil. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
-        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v1",
-        "footer" : "Node.js, TypeScript, HTML, CSS"
-    }
+        "title" : "Compilador Java",
+        "description" : "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
+        "url" : "https://github.com/InfiniteMarcus/Compilador-Java",
+        "footer" : "Java"
+    },
 ]
