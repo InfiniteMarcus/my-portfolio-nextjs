@@ -77,18 +77,18 @@ export default function Home() {
         <Container id={roadmap.id}>
           <Card {...roadmap} >
             <div>
-              <Checkbox id="reactjs" checked="true" text="Portfólio com React.js"/>
+              <Checkbox id="reactjs" checked text="Portfólio com React.js"/>
+              <Checkbox id="hanna-bot" checked text="Tornar o bot da Hanna público"/>
               <Checkbox id="hanna-website" text="Site do Projeto Hanna"/>
               <Checkbox id="docker" text="Aprender mais sobre Docker"/>
-              <Checkbox id="hanna-bot" text="Tornar o bot da Hanna público"/>
             </div>
           </Card>
         </Container>
 
         <Container id={resume.id}>
           <Card {...resume}>
-              <Button download={true} downloadFile="/Currículo_-_Marcus_Natrielli.pdf">Baixar em PDF - Português</Button>
-              <Button download={true} downloadFile="/Resume - Marcus Vinícius Natrielli Garcia.pdf">Baixar em PDF - Inglês</Button>
+              <Button download={true} downloadFile="/Curriculo_Marcus_Natrielli.pdf">Baixar em PDF - Português</Button>
+              <Button download={true} downloadFile="/Resume_Marcus_Natrielli.pdf">Baixar em PDF - Inglês</Button>
           </Card>
         </Container>
 
@@ -98,6 +98,9 @@ export default function Home() {
               {ContactItems}
             </div>
           </Card>
+          <div>
+            <p style={{textAlign: 'center', fontSize: 27}}>Discord: <span style={{fontWeight: 600}}>MarcusNatrielli#0438</span></p>
+          </div>
           <a style={{fontSize: '21px'}} target="_blank" href="https://icons8.com/">Ícones por Icons8</a>
         </Container>
       </main>
