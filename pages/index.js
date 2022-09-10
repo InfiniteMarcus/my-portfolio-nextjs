@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="description" property="og:description" content={pageDescription}/>
         <meta name="image" property="og:image" content={pageImageURL}/>
     
-        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@MarcusNatrielli"/>
         <meta property="twitter:domain" content="marcusnatrielli.com"/>
         <meta property="twitter:url" content="https://marcusnatrielli.com/"/>
