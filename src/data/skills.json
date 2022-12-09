@@ -3,22 +3,34 @@
         "description" : "Node.js"
     },
     {
+        "description" : "JavaScript"
+    },
+    {
+        "description" : "TypeScript"
+    },
+    {
         "description" : "Discord.js"
+    },
+    {
+        "description" : "Express.js"
     },
     {
         "description" : "React.js"
     },
     {
-        "description" : "TypeScript"
+        "description" : "Next.js"
+    },
+    {
+        "description" : "Django"
+    },
+    {
+        "description" : "Python"
     },
     {
         "description" : "PostgreSQL"
     },
     {
         "description" : "Git"
-    },
-    {
-        "description" : "Python"
     },
     {
         "description" : "Java"

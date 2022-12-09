@@ -4,7 +4,10 @@ export default function GalleryItem({ itemSize, title, description, footer, url 
     const Tag = url ? 'a' : 'div';
     return (
         <Tag
-            style={{flexBasis: itemSize}} 
+            style={{
+                flexBasis: itemSize,
+                cursor: url ? 'pointer' : 'auto'
+            }} 
             className="gallery-item" 
             href={url ? `${url}` : ''} 
             target={url ? "_blank" : ''}

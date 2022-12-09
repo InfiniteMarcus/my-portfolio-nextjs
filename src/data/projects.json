@@ -1,8 +1,20 @@
 [
     {
+        "title" : "Site do HackoonSpace - V2.0",
+        "description" : "Site de entidade estudantil utilizado para apresentar informações, links, inscrições e projetos de formadinâmica e responsiva",
+        "url" : "https://github.com/hackoonspace/site_v2",
+        "footer" : "TypeScript, React.js, Next.js"
+    },
+    {
+        "title" : "Site do Projeto Hanna",
+        "description" : "Site do Projeto Hanna, para dispor informações e redes sociais do projeto e guias para a utilização do bot de Discord",
+        "url" : "https://www.projecthanna.com/",
+        "footer" : "TypeScript, React.js, Next.js"
+    },
+    {
         "title" : "Projeto Hanna",
         "description" : "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos",
-        "url" : "https://www.projecthanna.com/",
+        "url" : "https://linktr.ee/project_hanna",
         "footer" : "TypeScript, Node.js, Discord.js, Python, PostgreSQL"
     },
     {
@@ -12,10 +24,10 @@
         "footer" : "Node.js, Discord.js"
     },
     {
-        "title" : "Newsletter do HackoonSpace",
+        "title" : "Hacka Newsletter",
         "description" : "Site para cadastro/descadastro em newsletter da comunidade estudantil HackoonSpace. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
-        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v1",
-        "footer" : "Node.js, TypeScript, HTML, CSS"
+        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v2",
+        "footer" : "React.js, Node.js, TypeScript, HTML, CSS"
     },
     {
         "title" : "Lyfer Education",
