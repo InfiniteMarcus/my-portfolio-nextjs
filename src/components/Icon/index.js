@@ -15,8 +15,8 @@ export default function Icon ({ alt, src, href }) {
                         src={src} 
                         loader={iconLoader}
                         unoptimized="true"
-                        width="96px"
-                        height="96px"
+                        width={96}
+                        height={96}
                     />
                 </div>
             </a>
