@@ -7,14 +7,14 @@
     },
     {
         "title" : "Site do Projeto Hanna",
-        "description" : "Site do Projeto Hanna, para dispor informações e redes sociais do projeto e guias para a utilização do bot de Discord",
+        "description" : "Aplicação para apresentação informações e redes sociais do projeto e guias para a utilização do bot de Discord",
         "url" : "https://www.projecthanna.com/",
         "footer" : "TypeScript, React.js, Next.js"
     },
     {
         "title" : "Projeto Hanna",
         "description" : "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos",
-        "url" : "https://linktr.ee/project_hanna",
+        "url" : "https://linktr.ee/Projeto_Hanna",
         "footer" : "TypeScript, Node.js, Discord.js, Python, PostgreSQL"
     },
     {
