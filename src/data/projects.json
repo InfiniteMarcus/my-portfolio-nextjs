@@ -1,50 +1,50 @@
 [
-    {
-        "title" : "Site do HackoonSpace - V2.0",
-        "description" : "Site de entidade estudantil utilizado para apresentar informações, links, inscrições e projetos de formadinâmica e responsiva",
-        "url" : "https://github.com/hackoonspace/site_v2",
-        "footer" : "TypeScript, React.js, Next.js"
-    },
-    {
-        "title" : "Site do Projeto Hanna",
-        "description" : "Aplicação para apresentação informações e redes sociais do projeto e guias para a utilização do bot de Discord",
-        "url" : "https://www.projecthanna.com/",
-        "footer" : "TypeScript, React.js, Next.js"
-    },
-    {
-        "title" : "Projeto Hanna",
-        "description" : "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos",
-        "url" : "https://linktr.ee/Projeto_Hanna",
-        "footer" : "TypeScript, Node.js, Discord.js, Python, PostgreSQL"
-    },
-    {
-        "title" : "Bot do Qwerty",
-        "description" : "Bot para Discord baseado no mascote da comunidade estudantil HackoonSpace. Possui funções de diversos tipos para facilitar a vida online dos participantes",
-        "url" : "https://github.com/hackoonspace/Qwerty-bot",
-        "footer" : "Node.js, Discord.js"
-    },
-    {
-        "title" : "Hacka Newsletter",
-        "description" : "Site para cadastro/descadastro em newsletter da comunidade estudantil HackoonSpace. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
-        "url" : "https://github.com/hackoonspace/Hacka-Newsletter-v2",
-        "footer" : "React.js, Node.js, TypeScript, HTML, CSS"
-    },
-    {
-        "title" : "Lyfer Education",
-        "description" : "Aplicação feita durante a 2º edição do Hackathon - CCR, organizado pela Shawee. Um jogo para ajudar jovens brasileiros a reforçarem seu interesse pelo aprendizado e descobrirem novos caminhos para o futuro",
-        "url" : "https://github.com/InfiniteMarcus/Lyfer-Education",
-        "footer" : "Godot Engine, GDScript"
-    },
-    {
-        "title" : "Portfólio com Next.js",
-        "description" : "Este próprio site que você está acessando! Feito com React.js e Next.js, meu site pessoal para que mais pessoas possam conhecer eu e meu trabalho :D ",
-        "url" : "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
-        "footer" : "React.js, Next.js, HTML, CSS"
-    },
-    {
-        "title" : "Compilador Java",
-        "description" : "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
-        "url" : "https://github.com/InfiniteMarcus/Compilador-Java",
-        "footer" : "Java"
-    }
+  {
+    "title": "Site do HackoonSpace - V2.0",
+    "description": "Site de entidade estudantil utilizado para apresentar informações, links, inscrições e projetos de formadinâmica e responsiva",
+    "url": "https://github.com/hackoonspace/site_v2",
+    "footer": "TypeScript, React.js, Next.js"
+  },
+  {
+    "title": "Site do Projeto Hanna",
+    "description": "Aplicação para apresentação informações e redes sociais do projeto e guias para a utilização do bot de Discord",
+    "url": "https://www.projetohanna.com/",
+    "footer": "TypeScript, React.js, Next.js"
+  },
+  {
+    "title": "Projeto Hanna",
+    "description": "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos",
+    "url": "https://linktr.ee/Projeto_Hanna",
+    "footer": "TypeScript, Node.js, Discord.js, Python, PostgreSQL"
+  },
+  {
+    "title": "Bot do Qwerty",
+    "description": "Bot para Discord baseado no mascote da comunidade estudantil HackoonSpace. Possui funções de diversos tipos para facilitar a vida online dos participantes",
+    "url": "https://github.com/hackoonspace/Qwerty-bot",
+    "footer": "Node.js, Discord.js"
+  },
+  {
+    "title": "Hacka Newsletter",
+    "description": "Site para cadastro/descadastro em newsletter da comunidade estudantil HackoonSpace. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API",
+    "url": "https://github.com/hackoonspace/Hacka-Newsletter-v2",
+    "footer": "React.js, Node.js, TypeScript, HTML, CSS"
+  },
+  {
+    "title": "Lyfer Education",
+    "description": "Aplicação feita durante a 2º edição do Hackathon - CCR, organizado pela Shawee. Um jogo para ajudar jovens brasileiros a reforçarem seu interesse pelo aprendizado e descobrirem novos caminhos para o futuro",
+    "url": "https://github.com/InfiniteMarcus/Lyfer-Education",
+    "footer": "Godot Engine, GDScript"
+  },
+  {
+    "title": "Portfólio com Next.js",
+    "description": "Este próprio site que você está acessando! Feito com React.js e Next.js, meu site pessoal para que mais pessoas possam conhecer eu e meu trabalho :D ",
+    "url": "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
+    "footer": "React.js, Next.js, HTML, CSS"
+  },
+  {
+    "title": "Compilador Java",
+    "description": "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica",
+    "url": "https://github.com/InfiniteMarcus/Compilador-Java",
+    "footer": "Java"
+  }
 ]
