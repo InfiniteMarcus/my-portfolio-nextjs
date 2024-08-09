@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.visible {
+  max-height: 500px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  overflow: hidden;
+}
+
+@media (max-width: 1050px) {
+  .ul {
+    display: none;
+  }
+}
+

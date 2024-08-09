@@ -1,0 +1,27 @@
+.card {
+    width: 100%;
+    text-align: center;
+    max-width: 1000px;
+    min-height: 250px;
+}
+
+.card-body {
+    padding: 20px;
+    font-size: 1.7em;
+}
+
+.card-text {
+    margin-bottom: 40px;
+}
+
+.card-container {
+    height: 600px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    gap: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}

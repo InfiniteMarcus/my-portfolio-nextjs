@@ -1,0 +1,88 @@
+:root {
+  --textColor: white;
+  --primaryBg: #1a1a1a;
+  --secondaryBg: #303030;
+
+  --primaryColor: #ab0000;
+  --secondaryColor: #7a0000;
+
+  --menuColor: rgba(30, 30, 30, 0.7);
+  --menuHover: rgba(30, 30, 30, 1);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: "Trebuchet MS", sans-serif;
+  color: var(--textColor);
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--textColor);
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--primaryBg);
+  background: url("../../public/images/simple_dashed.png") repeat center;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li :active
+{
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondaryColor);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: var(--primaryBg);
+}
+
+::-webkit-scrollbar-thumb\:hover {
+  background: var(--primaryColor);
+
+}

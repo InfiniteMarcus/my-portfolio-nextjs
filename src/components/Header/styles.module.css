@@ -1,0 +1,30 @@
+.header {
+    top: 0;
+    position: fixed;
+    background-color: var(--menuColor);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 20px;
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+.image {
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+.image:hover {
+    opacity: 1;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.title a {
+    text-decoration: none;
+    color: var(--textColor);
+}

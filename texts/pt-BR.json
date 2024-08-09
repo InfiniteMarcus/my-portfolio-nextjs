@@ -1,0 +1,179 @@
+{
+  "General": {
+    "Previous": "Anterior",
+    "Next": "Próximo"
+  },
+  "Header": {
+    "About me": "Sobre mim",
+    "Projects": "Projetos",
+    "Skills": "Habilidades",
+    "Contact": "Contato",
+    "Experience": "Experiência",
+    "Resume": "Currículo",
+    "Images alt": {
+      "Logo": "Logo vermelha com com o nome Marcus Natrielli em branco"
+    }
+  },
+  "Home": {
+    "Images alt": {
+      "Photo": "Foto de pessoa sorrindo"
+    },
+    "Portuguese": "Português",
+    "English": "Inglês",
+    "Download in PDF": "Baixar em PDF",
+    "Icons by": "Ícones por",
+    "About me": {
+      "Title": "Sobre mim",
+      "Paragraph1": "Olá! Me chamo Marcus Vinícius Natrielli Garcia",
+      "Paragraph2": "Sou graduado em Ciência da Computação na UFSCar - campus Sorocaba, cofundador do hackerspace HackoonSpace e criador do @Projeto_Hanna",
+      "Paragraph3": "Conheça mais sobre mim e o meu trabalho aqui neste site"
+    },
+    "Projects": {
+      "Title": "Projetos",
+      "Paragraph": "Destaques de aplicações práticas importantes na minha carreira",
+      "Items": {
+        "1": {
+          "Title": "Bot da Hanna para Twitch",
+          "Description": "Bot para Twitch a ser utilizado no canal do Projeto Hanna, possibilitando que as pessoas que vejam as transmissões ao vivo tenham novas formas de interagir e conhecer a comunidade"
+        },
+        "2": {
+          "Title": "Site do CENE Influences",
+          "Description": "Site do ministério de jovens da igreja evangélica CENE (Comunidade Evangélica Nação Eleita)"
+        },
+        "3": {
+          "Title": "Integração Arduino-Discord",
+          "Description": "Prova de conceito de integração entre a plataforma do Discord e placas Arduino (ex: Arduino UNO), permitindo a comunicação de via dupla entre essas partes"
+        },
+        "4": {
+          "Title": "Site do HackoonSpace - V2.0",
+          "Description": "Site de entidade estudantil utilizado para apresentar informações, links, inscrições e projetos de formadinâmica e responsiva"
+        },
+        "5": {
+          "Title": "Site do Projeto Hanna",
+          "Description": "Site para apresentação de informações, novidades, links e atividades da comunidade Projeto Hanna"
+        },
+        "6": {
+          "Title": "Projeto Hanna",
+          "Description": "Uma assistente virtual (e personagem original minha!) que nasceu como bot para Discord. Aos poucos, está se expandindo para outros meios, como aplicações web e mobile e lançamento de produtos físicos"
+        },
+        "7": {
+          "Title": "Bot do Qwerty",
+          "Description": "Bot para Discord baseado no mascote da comunidade estudantil HackoonSpace. Possui funções de diversos tipos para facilitar a vida online dos participantes"
+        },
+        "8": {
+          "Title": "Hacka Newsletter",
+          "Description": "Site para cadastro em newsletter da comunidade estudantil HackoonSpace. Os e-mails são registrados na plataforma Mailchimp, por meio de uma API"
+        },
+        "9": {
+          "Title": "Lyfer Education",
+          "Description": "Aplicação feita durante a 2º edição do Hackathon - CCR, organizado pela Shawee. Um jogo para ajudar jovens brasileiros a reforçarem seu interesse pelo aprendizado e descobrirem novos caminhos para o futuro"
+        },
+        "10": {
+          "Title": "Portfólio com Next.js",
+          "Description": "Este próprio site que você está acessando! Feito com React.js e Next.js, meu site pessoal para que mais pessoas possam conhecer eu e meu trabalho :D"
+        },
+        "11": {
+          "Title": "Compilador Java",
+          "Description": "Projeto desenvolvido na disciplina de Compiladores na faculdade. O programa serve como um compilador de uma linguagem fictícia K para a linguagem C, passando pelas fases de análise sintática, léxica e semântica"
+        }
+      }
+    },
+    "Skills": {
+      "Title": "Habilidades",
+      "Paragraph": "Linguagens, tecnologias, frameworks, bibliotecas e outras habilidades que mais utilizo no dia-a-dia como programador"
+    },
+    "Contact": "Contato",
+    "Experience": {
+      "Title": "Experiência",
+      "Works": {
+        "Description": "Experiências de trabalho que tive",
+        "Items": {
+          "1": {
+            "Title": "Desenvolvedor Backend Pleno - GamerSafer",
+            "Description": "2023/01 - agora"
+          },
+          "2": {
+            "Title": "Estagiário - Aion Solution",
+            "Description": "2022/06 - 2023/01"
+          },
+          "3": {
+            "Title": "Freelancer - Aplikey+",
+            "Description": "2021"
+          }
+        }
+      },
+      "Courses": {
+        "Description": "Cursos e graduações importantes que fiz",
+        "Items": {
+          "1": {
+            "Title": "Bacharelado em Ciência da Computação",
+            "Description": "UFSCar Sorocaba"
+          },
+          "2": {
+            "Title": "Computação em Nuvem e Inteligência Artificial em Microsoft Azure",
+            "Description": "Minha Chance, FAT"
+          },
+          "3": {
+            "Title": "Computação em Nuvem em Google Cloud Platform",
+            "Description": "Minha Chance, FAT"
+          },
+          "4": {
+            "Title": "3ª turma do DIO Campus Expert",
+            "Description": ""
+          },
+          "5": {
+            "Title": "2ª turma do DIO Campus Expert",
+            "Description": ""
+          }
+        }
+      },
+      "Talks": {
+        "Description": "Algumas palestras que apresentei",
+        "Items": {
+          "1": {
+            "Title": "Automatize Tarefas com Bots",
+            "Description": "Campus Party Brasil 15"
+          },
+          "2": {
+            "Title": "Como iniciar em Cloud para desenvolvedores",
+            "Description": "RoadSec 2023"
+          },
+          "3": {
+            "Title": "Criando comunidades: um pequeno guia",
+            "Description": "DIO Community Week 2022"
+          },
+          "4": {
+            "Title": "A importância das comunidades no desenvolvimento de carreiras",
+            "Description": "Campus Party Brasil 14"
+          },
+          "5": {
+            "Title": "O que fazer ao encontrar falhas de segurança?",
+            "Description": "CPBR Digital Edition 2 - 2021"
+          },
+          "6": {
+            "Title": "Como se proteger na Web?",
+            "Description": "12ª SeCoT - 2020"
+          }
+        }
+      },
+      "Events": {
+        "Description": "Eventos que organizei",
+        "Items": {
+          "1": {
+            "Title": "HackoonWeek 2021",
+            "Description": "HackoonSpace, UFSCar Sorocaba"
+          },
+          "2": {
+            "Title": "HackoonWeek 2020",
+            "Description": "HackoonSpace, UFSCar Sorocaba"
+          }
+        }
+      }
+    },
+    "Resume": "Currículo"
+  },
+  "Footer": {
+    "Made with": "Feito com",
+    "by": "por"
+  }
+}

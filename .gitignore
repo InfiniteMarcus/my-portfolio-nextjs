@@ -14,6 +14,7 @@
 
 # production
 /build
+./next
 
 # misc
 .DS_Store
@@ -28,3 +29,5 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+package-lock.json

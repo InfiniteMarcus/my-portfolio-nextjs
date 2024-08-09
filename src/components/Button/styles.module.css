@@ -1,0 +1,25 @@
+.a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.button {
+  background-color: var(--primaryColor);
+  cursor: pointer;
+  padding: 20px;
+  font-size: 1em;
+  font-family: 'Trebuchet MS', sans-serif;
+  border-radius: 1rem;
+  border: none;
+  color: var(--textColor);
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+.button:disabled {
+  background-color: var(--secondaryBg);
+}
+
+.button:hover, .button:active {
+  opacity: 1;
+}
