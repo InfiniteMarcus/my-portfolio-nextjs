@@ -1,56 +1,22 @@
 [
-    {
-        "description" : "Node.js"
-    },
-    {
-        "description" : "JavaScript"
-    },
-    {
-        "description" : "TypeScript"
-    },
-    {
-        "description" : "Discord.js"
-    },
-    {
-        "description" : "Express.js"
-    },
-    {
-        "description" : "React.js"
-    },
-    {
-        "description" : "Next.js"
-    },
-    {
-        "description" : "Django"
-    },
-    {
-        "description" : "Python"
-    },
-    {
-        "description" : "PostgreSQL"
-    },
-    {
-        "description" : "Git"
-    },
-    {
-        "description" : "Java"
-    },
-    {
-        "description" : "C/C++"
-    },
-    {
-        "description" : "HTML"
-    },
-    {
-        "description" : "CSS"
-    },
-    {
-        "description" : "GDScript"
-    },
-    {
-        "description" : "LaTeX"
-    },
-    {
-        "description" : "Arduino"
-    }
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Discord.js",
+    "Express.js",
+    "React.js",
+    "Next.js",
+    "Django",
+    "Python",
+    "PostgreSQL",
+    "DynamoDB",
+    "Git",
+    "Java",
+    "C/C++",
+    "HTML",
+    "CSS",
+    "Godot",
+    "GDScript",
+    "LaTeX",
+    "Arduino"
 ]

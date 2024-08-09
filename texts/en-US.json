@@ -1,0 +1,179 @@
+{
+  "General": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+  "Header": {
+    "About me": "About me",
+    "Projects": "Projects",
+    "Skills": "Skills",
+    "Contact": "Contact",
+    "Experience": "Experience",
+    "Resume": "Resume",
+    "Images alt": {
+      "Logo": "Red logo with the name Marcus Natrielli in white"
+    }
+  },
+  "Home": {
+    "Images alt": {
+      "Photo": "Photo of person smiling"
+    },
+    "Portuguese": "Portuguese",
+    "English": "English",
+    "Download in PDF": "Download in PDF",
+    "Icons by": "Icons by",
+    "About me": {
+      "Title": "About me",
+      "Paragraph1": "Hi! My name is Marcus Vinícius Natrielli Garcia",
+      "Paragraph2": "I have a degree in Computer Science at UFSCar - Sorocaba campus, co-founder of the hackerspace HackoonSpace and creator of @Projeto_Hanna",
+      "Paragraph3": "Find out more about me and my work here on this website"
+    },
+    "Projects": {
+      "Title": "Projects",
+      "Paragraph": "Highlights of important practical applications in my career",
+      "Items": {
+        "1": {
+          "Title": "Hanna Bot for Twitch",
+          "Description": "Bot for Twitch to be used on the Projeto Hanna Hanna channel, allowing people who watch live broadcasts to have new ways of interacting and getting to know the community"
+        },
+        "2": {
+          "Title": "CENE Influences website",
+          "Description": "Website of the youth ministry of the evangelical church CENE (Comunidade Evangélica Nação Eleita)"
+        },
+        "3": {
+          "Title": "Discord-Arduino integration",
+          "Description": "Proof of concept integration between the Discord platform and Arduino boards (e.g. Arduino UNO), allowing two-way communication between these parties"
+        },
+        "4": {
+          "Title": "HackoonSpace website - V2.0",
+          "Description": "Student entity website used to present information, links, registrations and projects in a dynamic and responsive way"
+        },
+        "5": {
+          "Title": "Projeto Hanna website",
+          "Description": "Website for presenting information, news, links and activities from the Projeto Hanna community"
+        },
+        "6": {
+          "Title": "Projeto Hanna",
+          "Description": "A virtual assistant (and my original character!) who was born as a bot for Discord. Little by little, it is expanding to other means, such as web and mobile applications and the launch of physical products"
+        },
+        "7": {
+          "Title": "Qwerty bot",
+          "Description": "Bot for Discord based on the HackoonSpace student community mascot. It has different types of functions to make online life easier for participants"
+        },
+        "8": {
+          "Title": "Hacka Newsletter",
+          "Description": "Website for registering for the HackoonSpace student community newsletter. Emails are registered on the Mailchimp platform, through an API"
+        },
+        "9": {
+          "Title": "Lyfer Education",
+          "Description": "Application made during the 2nd edition of Hackathon - CCR, organized by Shawee. A game to help young Brazilians reinforce their interest in learning and discover new paths for the future"
+        },
+        "10": {
+          "Title": "Portfolio with Next.js",
+          "Description": "This very website you are accessing! Made with React.js and Next.js, my personal website so that more people can get to know me and my work :D"
+        },
+        "11": {
+          "Title": "Java Compiler",
+          "Description": "Project developed in the Compilers discipline at college. The program serves as a compiler from a fictional language K to the C language, going through the syntactic, lexical and semantic analysis phases"
+        }
+      }
+    },
+    "Skills": {
+      "Title": "Skills",
+      "Paragraph": "Languages, technologies, frameworks, libraries and other skills that I use most on a daily basis as a programmer"
+    },
+    "Contact": "Contact",
+    "Experience": {
+      "Title": "Experience",
+      "Works": {
+        "Description": "Work experiences I had",
+        "Items": {
+          "1": {
+            "Title": "Backend Developer - GamerSafer",
+            "Description": "2023/01 - now"
+          },
+          "2": {
+            "Title": "Intern - Aion Solution",
+            "Description": "2022/06 - 2023/01"
+          },
+          "3": {
+            "Title": "Freelancer - Aplikey+",
+            "Description": "2021"
+          }
+        }
+      },
+      "Courses": {
+        "Description": "Important courses and degrees I took",
+        "Items": {
+          "1": {
+            "Title": "Bachelor's Degree in Computer Science",
+            "Description": "UFSCar Sorocaba"
+          },
+          "2": {
+            "Title": "Cloud Computing and Artificial Intelligence in Microsoft Azure",
+            "Description": "Minha Chance, FAT"
+          },
+          "3": {
+            "Title": "Cloud Computing on Google Cloud Platform",
+            "Description": "Minha Chance, FAT"
+          },
+          "4": {
+            "Title": "3rd class of DIO Campus Expert",
+            "Description": ""
+          },
+          "5": {
+            "Title": "2nd class of DIO Campus Expert",
+            "Description": ""
+          }
+        }
+      },
+      "Talks": {
+        "Description": "Some talks I presented",
+        "Items": {
+          "1": {
+            "Title": "Automate Tasks with Bots",
+            "Description": "Campus Party Brasil 15"
+          },
+          "2": {
+            "Title": "How to get started in the Cloud for developers",
+            "Description": "RoadSec 2023"
+          },
+          "3": {
+            "Title": "Creating communities: a short guide",
+            "Description": "DIO Community Week 2022"
+          },
+          "4": {
+            "Title": "The importance of communities in career development",
+            "Description": "Campus Party Brasil 14"
+          },
+          "5": {
+            "Title": "What to do when you find security flaws?",
+            "Description": "CPBR Digital Edition 2 - 2021"
+          },
+          "6": {
+            "Title": "How to protect yourself on the Web?",
+            "Description": "12th SeCoT - 2020"
+          }
+        }
+      },
+      "Events": {
+        "Description": "Events I organized",
+        "Items": {
+          "1": {
+            "Title": "HackoonWeek 2021",
+            "Description": "HackoonSpace, UFSCar Sorocaba"
+          },
+          "2": {
+            "Title": "HackoonWeek 2020",
+            "Description": "HackoonSpace, UFSCar Sorocaba"
+          }
+        }
+      }
+    },
+    "Resume": "Resume"
+  },
+  "Footer": {
+    "Made with": "Made with",
+    "by": "by"
+  }
+}
