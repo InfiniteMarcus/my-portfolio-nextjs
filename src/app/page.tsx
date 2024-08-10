@@ -158,7 +158,7 @@ const Home = () => {
             <Card
               title={t("Skills.Title")}
               description={[t("Skills.Paragraph")]}
-              containerHeight={350}
+              containerHeight={450}
             >
               <Gallery
                 itemKey="skills"
