@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import style from "./styles.module.css";
 
@@ -37,17 +38,17 @@ const Header = () => {
 
   return (
     <header className={style.header}>
-      <a className={style.image} href="/">
+      <Link className={style.image} href="/">
         <Image
           src="/images/logo.png"
           alt={t("Images alt.Logo")}
           width={90}
           height={75}
         />
-      </a>
+      </Link>
 
       <h1 className={style.title}>
-        <a href="/"></a>
+        <Link href="/" />
       </h1>
 
       <Navbar items={items} />
