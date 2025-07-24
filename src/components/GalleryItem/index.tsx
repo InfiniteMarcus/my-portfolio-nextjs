@@ -17,7 +17,7 @@ const GalleryItem = ({ itemSize, title, description, footer, url }: Props) => {
         cursor: url ? "pointer" : "auto",
       }}
       className={`${style["gallery-item"]} ${url ? style.a : ""}`}
-      href={url ? `${url}` : ""}
+      href={url ? `${url}` : undefined}
       target={url ? "_blank" : ""}
     >
       <div>

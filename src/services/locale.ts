@@ -7,10 +7,12 @@ import { Locale } from "../types";
 
 const COOKIE_NAME = "NEXT_LOCALE";
 
-export async function getUserLocale() {
-  return cookies().get(COOKIE_NAME)?.value || DEFAULT_LOCALE;
+export const getUserLocale = async () => {
+  const requestCookies = await cookies();
+  return requestCookies.get(COOKIE_NAME)?.value || DEFAULT_LOCALE;
 }
 
-export async function setUserLocale(locale: Locale) {
-  cookies().set(COOKIE_NAME, locale);
+export const setUserLocale = async (locale: Locale) => {
+  const requestCookies = await cookies();
+  requestCookies.set(COOKIE_NAME, locale);
 }

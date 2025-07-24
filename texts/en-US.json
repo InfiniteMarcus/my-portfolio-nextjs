@@ -16,7 +16,7 @@
   },
   "Home": {
     "Images alt": {
-      "Photo": "Photo of person smiling"
+      "Photo": "Photo of person holding a microphone"
     },
     "Portuguese": "Portuguese",
     "English": "English",
@@ -160,14 +160,18 @@
         "Description": "Events I organized",
         "Items": {
           "1": {
+            "Title": "HannaDay 2024",
+            "Description": "Projeto Hanna, UFSCar Sorocaba"
+          },
+          "2": {
             "Title": "HackoonWeek 2021",
             "Description": "HackoonSpace, UFSCar Sorocaba"
           },
-          "2": {
+          "3": {
             "Title": "HackoonWeek 2020",
             "Description": "HackoonSpace, UFSCar Sorocaba"
           },
-          "3": {
+          "4": {
             "Title": "12th edition of SeCoT (Semana da Computação e Tecnologia)",
             "Description": "UFSCar Sorocaba"
           }

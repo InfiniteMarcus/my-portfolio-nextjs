@@ -33,7 +33,7 @@ const Home = () => {
       <div className="container">
         <main>
           <Container id="aboutMe">
-            <Image alt={t("Images alt.Photo")} src="/images/photo.webp" />
+            <Image alt={t("Images alt.Photo")} src="/images/photo.webp"/>
             <Card
               title={t("About me.Title")}
               description={[
