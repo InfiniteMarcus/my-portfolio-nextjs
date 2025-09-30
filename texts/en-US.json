@@ -131,26 +131,34 @@
         "Description": "Some talks I presented",
         "Items": {
           "1": {
+            "Title": "Why you shouldn't trust your user input",
+            "Description": "17th SeCoT - 2025"
+          },
+          "2": {
+            "Title": "What to do with your IT degree besides programming?",
+            "Description": "16th SeCoT - 2024"
+          },
+          "3": {
             "Title": "Automate Tasks with Bots",
             "Description": "Campus Party Brasil 15"
           },
-          "2": {
+          "4": {
             "Title": "How to get started in the Cloud for developers",
             "Description": "RoadSec 2023"
           },
-          "3": {
+          "5": {
             "Title": "Creating communities: a short guide",
             "Description": "DIO Community Week 2022"
           },
-          "4": {
+          "6": {
             "Title": "The importance of communities in career development",
             "Description": "Campus Party Brasil 14"
           },
-          "5": {
+          "7": {
             "Title": "What to do when you find security flaws?",
             "Description": "CPBR Digital Edition 2 - 2021"
           },
-          "6": {
+          "8": {
             "Title": "How to protect yourself on the Web?",
             "Description": "12th SeCoT - 2020"
           }

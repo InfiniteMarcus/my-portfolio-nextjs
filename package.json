@@ -18,23 +18,23 @@
     "react-dom": "^19.1"
   },
   "devDependencies": {
-    "@types/node": "24.1",
-    "@types/react-dom": "^19.1.6",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.3.0",
+    "@eslint/js": "^9.31.0",
+    "@next/eslint-plugin-next": "^15.4.3",
+    "@types/node": "24.6",
     "@types/react": "19.1",
+    "@types/react-dom": "^19.1.6",
     "@typescript-eslint/eslint-plugin": "^8.38",
     "@typescript-eslint/parser": "^8.38",
     "eslint": "^9.31",
-    "eslint-config-next": "15.4",
+    "eslint-config-next": "15.5",
     "eslint-config-prettier": "^10.1",
-    "@next/eslint-plugin-next": "^15.4.3",
-    "prettier": "^3.6.2",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
     "typescript": "^5.8",
-    "typescript-eslint": "^8.38.0",
-    "@eslint/js": "^9.31.0"
+    "typescript-eslint": "^8.38.0"
   }
 }

@@ -131,26 +131,34 @@
         "Description": "Algumas palestras que apresentei",
         "Items": {
           "1": {
+            "Title": "O porquê você não deve confiar no input dos seus usuários",
+            "Description": "17ª SeCoT - 2025"
+          },
+          "2": {
+            "Title": "O que fazer com sua graduação em TI além de programar?",
+            "Description": "16ª SeCoT - 2024"
+          },
+          "3": {
             "Title": "Automatize Tarefas com Bots",
             "Description": "Campus Party Brasil 15"
           },
-          "2": {
+          "4": {
             "Title": "Como iniciar em Cloud para desenvolvedores",
             "Description": "RoadSec 2023"
           },
-          "3": {
+          "5": {
             "Title": "Criando comunidades: um pequeno guia",
             "Description": "DIO Community Week 2022"
           },
-          "4": {
+          "6": {
             "Title": "A importância das comunidades no desenvolvimento de carreiras",
             "Description": "Campus Party Brasil 14"
           },
-          "5": {
+          "7": {
             "Title": "O que fazer ao encontrar falhas de segurança?",
             "Description": "CPBR Digital Edition 2 - 2021"
           },
-          "6": {
+          "8": {
             "Title": "Como se proteger na Web?",
             "Description": "12ª SeCoT - 2020"
           }
