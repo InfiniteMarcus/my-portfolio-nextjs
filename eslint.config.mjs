@@ -21,7 +21,7 @@ export default defineConfig([
     extends: [
       ...nextCoreWebVitals,
       ...compat.extends("eslint:recommended"),
-      ...compat.extends("plugin:prettier/recommended")
+      ...compat.extends("plugin:prettier/recommended"),
     ],
 
     rules: {
