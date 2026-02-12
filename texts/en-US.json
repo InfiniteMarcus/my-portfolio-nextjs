@@ -89,14 +89,22 @@
         "Description": "Work experiences I had",
         "Items": {
           "1": {
+            "Title": "FullStack Software Engineer - Mathex",
+            "Description": "2026/01 - currently"
+          },
+          "2": {
+            "Title": "FullStack Software Engineer - Shipeezi",
+            "Description": "2025/12 - 2026/01",
+          },
+          "3": {
             "Title": "Backend Developer - GamerSafer",
             "Description": "2023/01 - 2025/11"
           },
-          "2": {
+          "4": {
             "Title": "Intern - Aion Solution",
             "Description": "2022/06 - 2023/01"
           },
-          "3": {
+          "5": {
             "Title": "Freelancer - Aplikey+",
             "Description": "2021"
           }
