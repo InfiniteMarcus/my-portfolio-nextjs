@@ -32,6 +32,7 @@ const Home = () => {
       <Header />
       <div className="container">
         <main>
+          <h1>OI SOROCODEDDDDDDDDDDDDDDDDDDDDDDD</h1>
           <Container id="aboutMe">
             <Image alt={t("Images alt.Photo")} src="/images/photo.webp" />
             <Card
