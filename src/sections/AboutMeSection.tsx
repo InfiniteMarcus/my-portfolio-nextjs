@@ -9,11 +9,7 @@ export const AboutMeSection = async () => {
       <Image alt={t("Images alt.Photo")} src="/images/photo.webp" />
       <Card
         title={t("About me.Title")}
-        description={[
-          t("About me.Paragraph1"),
-          t("About me.Paragraph2"),
-          t("About me.Paragraph3"),
-        ]}
+        description={[t("About me.Paragraph1"), t("About me.Paragraph2")]}
       />
     </Container>
   );

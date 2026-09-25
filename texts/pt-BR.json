@@ -24,9 +24,8 @@
     "Icons by": "Ícones por",
     "About me": {
       "Title": "Sobre mim",
-      "Paragraph1": "Olá! Me chamo **Marcus Vinícius Natrielli Garcia**",
-      "Paragraph2": "Sou graduado em Ciência da Computação na [UFSCar](https://www.ufscar.br/) - campus Sorocaba, cofundador do hackerspace [HackoonSpace](https://hackoonspace.com) e criador do [@Projeto_Hanna](https://linktr.ee/projeto_hanna)",
-      "Paragraph3": "Conheça mais sobre mim e o meu trabalho aqui neste site"
+      "Paragraph1": "Sou um **Engenheiro de Software** com mais de 4 anos de experiência construindo sistemas escaláveis com tecnologias como Node.js, React, TypeScript e AWS.",
+      "Paragraph2": "Além disso, tenho experiência com **comunidades tech** e **produção de conteúdo**. Sou fundador do [@Projeto_Hanna](https://linktr.ee/projeto_hanna) e palestrante nas horas vagas."
     },
     "Projects": {
       "Title": "Projetos",

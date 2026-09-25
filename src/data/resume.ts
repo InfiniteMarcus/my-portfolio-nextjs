@@ -40,6 +40,34 @@ export const projects: Project[] = [
     },
   },
   {
+    url: "https://top.gg/bot/807038676378255410",
+    footer: "TypeScript, Discord.js, Node.js, Prisma, PostgreSQL",
+    title: {
+      "pt-BR": "Bot para Discord da Hanna",
+      "en-US": "Hanna Discord Bot",
+    },
+    description: {
+      "pt-BR":
+        "Bot com recursos de gamificação, ferramentas e jogos para mais interatividade em comunidades, utilizado em mais de 40.000 servidores",
+      "en-US":
+        "Bot with gamification features, tools and games for more interactivity in communities, used in more than 40,000 servers",
+    },
+  },
+  {
+    url: "https://projetohanna.com/quiz",
+    footer: "Electron, Vite, React.js, TypeScript, HTML, CSS",
+    title: {
+      "pt-BR": "Hanna Quiz Show",
+      "en-US": "Hanna Quiz Show",
+    },
+    description: {
+      "pt-BR":
+        "Aplicativo de quiz criado para apresentações em eventos educacionais e encontros de comunidades",
+      "en-US":
+        "Quiz application created for presentations at educational events and community gatherings",
+    },
+  },
+  {
     url: "https://www.ceneinfluences.com.br/",
     footer: "TypeScript, React.js, Next.js",
     title: {
@@ -153,7 +181,7 @@ export const projects: Project[] = [
   },
   {
     url: "https://github.com/InfiniteMarcus/my-portfolio-nextjs",
-    footer: "React.js, Next.js, HTML, CSS",
+    footer: "React.js, Next.js, TypeScript, HTML, CSS",
     title: {
       "pt-BR": "Portfólio com Next.js",
       "en-US": "Portfolio with Next.js",
@@ -197,18 +225,54 @@ export const skills: Skill[] = [
   { name: "Front end" },
   { name: "Godot" },
   { name: "Arduino" },
+  { name: "Python" },
+  { name: "SQL" },
+  { name: "Prisma" },
+  { name: "REST APIs" },
+  { name: "Tailwind" },
+  { name: "HTML" },
+  { name: "CSS" },
+  { name: "Docker" },
+  { name: "AWS Lambda" },
+  { name: "AWS SQS" },
+  { name: "AWS CloudWatch" },
+  { name: "Antigravity" },
+  { name: "Claude Code" },
+  { name: "Claude Cowork" },
 ];
 
 export const works: ExperienceItem[] = [
   {
     url: "https://mathex.com.br/",
     title: {
-      "pt-BR": "Desenvolvedor FullStack - Mathex",
-      "en-US": "FullStack Software Engineer - Mathex",
+      "pt-BR": "Engenheiro de Software Fullstack - Mathex",
+      "en-US": "Fullstack Software Engineer - Mathex",
     },
     description: {
       "pt-BR": "2026/01 - atualmente",
       "en-US": "2026/01 - currently",
+    },
+  },
+  {
+    url: "https://linktr.ee/Projeto_Hanna",
+    title: {
+      "pt-BR": "Fundador e Líder de Comunidade - Projeto Hanna",
+      "en-US": "Founder and Community Leader - Projeto Hanna",
+    },
+    description: {
+      "pt-BR": "2021/03 - atualmente",
+      "en-US": "2021/03 - currently",
+    },
+  },
+  {
+    url: "",
+    title: {
+      "pt-BR": "Engenheiro de Software Pleno - FullStack",
+      "en-US": "Mid-Level Software Engineer - FullStack",
+    },
+    description: {
+      "pt-BR": "2026/05 - 2026/09",
+      "en-US": "2026/05 - 2026/09",
     },
   },
   {
@@ -225,8 +289,8 @@ export const works: ExperienceItem[] = [
   {
     url: "https://gamersafer.com/",
     title: {
-      "pt-BR": "Desenvolvedor Backend Pleno - GamerSafer",
-      "en-US": "Backend Developer - GamerSafer",
+      "pt-BR": "Engenheiro de Software Backend - GamerSafer",
+      "en-US": "Backend Software Engineer - GamerSafer",
     },
     description: {
       "pt-BR": "2023/01 - 2025/11",
@@ -253,6 +317,17 @@ export const works: ExperienceItem[] = [
     description: {
       "pt-BR": "2021",
       "en-US": "2021",
+    },
+  },
+  {
+    url: "https://hackoonspace.com/",
+    title: {
+      "pt-BR": "Co-fundador e Organizador - HackoonSpace",
+      "en-US": "Co-founder and Organizer - HackoonSpace",
+    },
+    description: {
+      "pt-BR": "2020/06 - 2022/07",
+      "en-US": "2020/06 - 2022/07",
     },
   },
 ];
@@ -314,9 +389,64 @@ export const courses: ExperienceItem[] = [
       "en-US": "",
     },
   },
+  {
+    url: "",
+    title: {
+      "pt-BR": "FullStack Labs Certified - Node.js",
+      "en-US": "FullStack Labs Certified - Node.js",
+    },
+    description: {
+      "pt-BR": "FullStack Labs",
+      "en-US": "FullStack Labs",
+    },
+  },
 ];
 
 export const talks: ExperienceItem[] = [
+  {
+    url: "",
+    title: {
+      "pt-BR": "Palestrante",
+      "en-US": "Speaker",
+    },
+    description: {
+      "pt-BR": "CryptoRave 2026",
+      "en-US": "CryptoRave 2026",
+    },
+  },
+  {
+    url: "",
+    title: {
+      "pt-BR": "Palestrante",
+      "en-US": "Speaker",
+    },
+    description: {
+      "pt-BR": "TheDevConf 2025 São Paulo",
+      "en-US": "TheDevConf 2025 São Paulo",
+    },
+  },
+  {
+    url: "",
+    title: {
+      "pt-BR": "Apresentador (Host)",
+      "en-US": "Host",
+    },
+    description: {
+      "pt-BR": "MindTheSec 2025",
+      "en-US": "MindTheSec 2025",
+    },
+  },
+  {
+    url: "",
+    title: {
+      "pt-BR": "Palestrante",
+      "en-US": "Speaker",
+    },
+    description: {
+      "pt-BR": "HackoonWeek 2024",
+      "en-US": "HackoonWeek 2024",
+    },
+  },
   {
     url: "https://www.instagram.com/p/DOdnyCFEaPg",
     title: {
