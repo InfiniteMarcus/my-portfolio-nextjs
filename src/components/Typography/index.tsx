@@ -4,7 +4,7 @@ type Props = {
 
 const Typography = ({ text }: Props) => {
   return (
-    <div className="mb-8 p-2.5 max-w-[250px] border-b-2 border-brand-primary text-center mx-auto">
+    <div className="p-2.5 max-w-[250px] border-b-2 border-brand-primary text-center mx-auto">
       <h2 className="text-4xl font-bold">{text}</h2>
     </div>
   );

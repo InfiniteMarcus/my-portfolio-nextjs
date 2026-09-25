@@ -4,6 +4,7 @@ import { ReactNode, useState } from "react";
 import Button from "../Button";
 import { useTranslations } from "next-intl";
 import Typography from "../Typography";
+import { parseRichText } from "../../utils/richText";
 
 type Props = {
   breakValue?: "normal" | "break-all" | "keep-all" | "break-word";
@@ -45,8 +46,8 @@ const PaginatedCard = ({ breakValue, title, description, pages }: Props) => {
       <div className="p-5 text-xl sm:text-2xl text-white/95">
         {description &&
           description.map((line, i) => (
-            <p key={i} className="p-2.5 mb-5 leading-relaxed">
-              {line}
+            <p key={i} className="mb-5 leading-relaxed">
+              {parseRichText(line)}
             </p>
           ))}
 
@@ -57,7 +58,7 @@ const PaginatedCard = ({ breakValue, title, description, pages }: Props) => {
           {actualPage.description &&
             actualPage.description.map((line, i) => (
               <p key={i} className="p-2.5">
-                {line}
+                {parseRichText(line)}
               </p>
             ))}
 

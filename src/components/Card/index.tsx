@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Typography from "../Typography";
+import { parseRichText } from "../../utils/richText";
 
 type Props = {
   breakValue?: "normal" | "break-all" | "keep-all" | "break-word";
@@ -23,8 +24,8 @@ export default function Card({
       <div className="p-5 text-xl sm:text-2xl text-white/95">
         {description &&
           description.map((line, i) => (
-            <p key={i} className="p-2.5 mb-5 leading-relaxed">
-              {line}
+            <p key={i} className="mb-5 leading-relaxed">
+              {parseRichText(line)}
             </p>
           ))}
         {children && (
