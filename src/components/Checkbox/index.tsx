@@ -1,5 +1,3 @@
-import style from "./styles.module.css";
-
 type Props = {
   checked?: boolean;
   id: string;
@@ -8,9 +6,9 @@ type Props = {
 
 const Checkbox = ({ checked, id, text }: Props) => {
   return (
-    <div className={style["check-container"]}>
+    <div className="flex gap-4 mb-11 items-center">
       <input
-        className={style.input}
+        className="w-6 h-6 accent-brand-primary cursor-default rounded"
         id={id}
         type="checkbox"
         checked={checked}
@@ -18,7 +16,9 @@ const Checkbox = ({ checked, id, text }: Props) => {
       />
       <label
         htmlFor={id}
-        style={{ textDecorationLine: checked ? "line-through" : "none" }}
+        className={`font-sans select-none text-white ${
+          checked ? "line-through opacity-70" : ""
+        }`}
       >
         {text}
       </label>

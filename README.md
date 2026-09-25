@@ -7,4 +7,5 @@ Veja o projeto em funcionamento [neste deploy](httsp://marcusnatrielli.vercel.ap
 ## Próximos passos :
 - Adicionar transições quando elementos aparecerem em tela
 - Possível integração com API do Github
+- Possível integração com API do LinkedIn
 

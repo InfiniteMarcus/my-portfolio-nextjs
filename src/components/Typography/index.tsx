@@ -1,13 +1,11 @@
-import style from "./styles.module.css";
-
 type Props = {
   text: string;
 };
 
 const Typography = ({ text }: Props) => {
   return (
-    <div className={style.container}>
-      <h1 className={style.h1}> {text} </h1>
+    <div className="mb-8 p-2.5 max-w-[250px] border-b-2 border-brand-primary text-center mx-auto">
+      <h2 className="text-4xl font-bold">{text}</h2>
     </div>
   );
 };

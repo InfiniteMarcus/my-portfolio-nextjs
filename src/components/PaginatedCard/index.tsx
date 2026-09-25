@@ -1,8 +1,6 @@
 "use client";
 
 import { ReactNode, useState } from "react";
-
-import style from "./styles.module.css";
 import Button from "../Button";
 import { useTranslations } from "next-intl";
 import Typography from "../Typography";
@@ -28,7 +26,6 @@ const PaginatedCard = ({ breakValue, title, description, pages }: Props) => {
     if (nextPage >= pages.length) {
       return;
     }
-
     setPage((prev) => prev + 1);
   };
 
@@ -36,44 +33,41 @@ const PaginatedCard = ({ breakValue, title, description, pages }: Props) => {
     if (previousPage < 0) {
       return;
     }
-
     setPage((prev) => prev - 1);
   };
 
   const actualPage = pages[page];
 
   return (
-    <div className={style.card}>
+    <div className="w-full text-center max-w-[1000px] min-h-[250px] px-4">
       {title && <Typography text={title} />}
 
-      <div className={style["card-body"]}>
+      <div className="p-5 text-xl sm:text-2xl text-white/95">
         {description &&
-          description.map((line, i) => {
-            return (
-              <p key={i} style={{ padding: "10px", marginBottom: "20px" }}>
-                {line}
-              </p>
-            );
-          })}
+          description.map((line, i) => (
+            <p key={i} className="p-2.5 mb-5 leading-relaxed">
+              {line}
+            </p>
+          ))}
 
         <div
           style={{ wordBreak: breakValue || "inherit" }}
-          className={style["card-container"]}
+          className="flex flex-col mx-auto justify-center gap-5"
         >
           {actualPage.description &&
-            actualPage.description.map((line, i) => {
-              return (
-                <p key={i} style={{ padding: "10px" }}>
-                  {line}
-                </p>
-              );
-            })}
+            actualPage.description.map((line, i) => (
+              <p key={i} className="p-2.5">
+                {line}
+              </p>
+            ))}
 
-          <div className={style["page"]}>{actualPage.component}</div>
+          <div className="h-[350px] overflow-y-auto overflow-x-hidden px-2.5">
+            {actualPage.component}
+          </div>
         </div>
       </div>
 
-      <div className={style.buttons}>
+      <div className="flex gap-5 items-center justify-center mt-4">
         <Button onClick={goToPreviousPage} disabled={previousPage < 0}>
           {t("Previous")}
         </Button>

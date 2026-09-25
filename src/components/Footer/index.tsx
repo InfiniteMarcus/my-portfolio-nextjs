@@ -1,15 +1,18 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-import style from "./styles.module.css";
-
-const Footer = () => {
-  const t = useTranslations("Footer");
+const Footer = async () => {
+  const t = await getTranslations("Footer");
 
   return (
-    <footer className={style.footer}>
+    <footer className="w-full text-center mx-auto pb-12 mt-20 text-xl sm:text-2xl text-white/90">
       <span>
         {t("Made with")}{" "}
-        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://nextjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-brand-primary transition-colors"
+        >
           Next.js
         </a>{" "}
         {t("by")}{" "}
@@ -17,6 +20,7 @@ const Footer = () => {
           href="https://github.com/InfiniteMarcus"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline hover:text-brand-primary transition-colors"
         >
           @infinitemarcus
         </a>

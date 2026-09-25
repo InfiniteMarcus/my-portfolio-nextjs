@@ -1,6 +1,4 @@
 import { ReactNode } from "react";
-
-import style from "./styles.module.css";
 import Typography from "../Typography";
 
 type Props = {
@@ -19,25 +17,23 @@ export default function Card({
   containerHeight,
 }: Props) {
   return (
-    <div className={style.card}>
+    <div className="w-full text-center max-w-[1000px] min-h-[250px] px-4">
       {title && <Typography text={title} />}
 
-      <div className={style["card-body"]}>
+      <div className="p-5 text-xl sm:text-2xl text-white/95">
         {description &&
-          description.map((line, i) => {
-            return (
-              <p key={i} style={{ padding: "10px", marginBottom: "20px" }}>
-                {line}
-              </p>
-            );
-          })}
+          description.map((line, i) => (
+            <p key={i} className="p-2.5 mb-5 leading-relaxed">
+              {line}
+            </p>
+          ))}
         {children && (
           <div
             style={{
               wordBreak: breakValue || "inherit",
               height: containerHeight,
             }}
-            className={style["card-container"]}
+            className="flex mx-auto justify-center gap-5 overflow-y-auto overflow-x-hidden p-2.5 max-h-[600px]"
           >
             {children}
           </div>

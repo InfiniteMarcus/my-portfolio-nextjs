@@ -1,9 +1,3 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { debounce } from "../../utils";
-
-import style from "./styles.module.css";
 import NavItem from "../NavItem";
 import Hamburger from "../Hamburger";
 import LanguageSwitcher from "../LanguageSwitcher";
@@ -16,47 +10,25 @@ type Props = {
 };
 
 const Navbar = ({ items }: Props) => {
-  const [responsiveMode, setResponsiveMode] = useState(true);
-
-  useEffect(() => {
-    const debouncedHandleResize = debounce(() => {
-      window.innerWidth < 1050
-        ? setResponsiveMode(true)
-        : setResponsiveMode(false);
-    }, 50);
-
-    window.addEventListener("resize", debouncedHandleResize);
-
-    debouncedHandleResize();
-
-    // eslint-disable-next-line no-unused-vars
-    (_: unknown) => {
-      window.removeEventListener("resize", debouncedHandleResize);
-    };
-  }, []);
-
   const navItems = items.map((item, index) => (
-    <div key={`navbar-${index}`}>
-      <NavItem item={item} />
-    </div>
+    <NavItem key={`navbar-${index}`} item={item} />
   ));
 
   return (
     <nav
-      className={style.nav}
-      style={{ flexDirection: responsiveMode ? "row-reverse" : "row" }}
+      aria-label="Navegação principal"
+      className="flex flex-row-reverse min-[1050px]:flex-row items-center justify-start"
     >
-      <ul className={`${style.ul} ${responsiveMode ? "" : style.visible}`}>
+      {/* Desktop navigation */}
+      <ul className="hidden min-[1050px]:flex flex-row items-center list-none">
         {navItems}
       </ul>
+
+      {/* Mobile hamburger navigation */}
       <Hamburger navItems={navItems} />
 
-      <div
-        style={{
-          marginRight: responsiveMode ? "60px" : 0,
-          marginLeft: responsiveMode ? 0 : "60px",
-        }}
-      >
+      {/* Language Switcher */}
+      <div className="mr-14 min-[1050px]:mr-0 min-[1050px]:ml-14">
         <LanguageSwitcher />
       </div>
     </nav>

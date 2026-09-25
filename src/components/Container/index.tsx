@@ -1,17 +1,19 @@
 import { ReactNode } from "react";
 
-import style from "./styles.module.css";
-
 type Props = {
   id: string;
   children: ReactNode;
+  className?: string;
 };
 
-const Container = ({ id, children }: Props) => {
+const Container = ({ id, children, className = "" }: Props) => {
   return (
-    <div id={id} className={style.div}>
+    <section
+      id={id}
+      className={`flex flex-col items-center justify-around w-full mx-auto gap-8 py-16 scroll-mt-24 ${className}`}
+    >
       {children}
-    </div>
+    </section>
   );
 };
 
